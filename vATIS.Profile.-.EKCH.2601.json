@@ -1,6 +1,8 @@
 {
   "name": "EKCH",
   "id": "20bd5456-6572-431f-a184-8e4515b13165",
+  "updateUrl": "https://raw.githubusercontent.com/Vatsim-Scandinavia/EKDK-vATIS/refs/heads/main/vATIS.Profile.-.EKCH.2601.json",
+  "updateSerial": 2026011601,
   "stations": [
     {
       "id": "ea844f5a-465b-4b4c-8c6b-9334cd537930",
