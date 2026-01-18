@@ -13068,7 +13068,7 @@
         {
           "id": "d560282e-a826-4c21-8175-d89f88ab0e60",
           "name": "22L",
-          "notams": "INTERSECTION V1 OR V2",
+          "notams": "",
           "template": "[FACILITY] DEP ATIS [ATIS_CODE]\r\n[TIME] PAUSE\r\nRWY IN USE 22L PAUSE\r\nRUNWAY 22L CONDITION REPORT AT_ [TIME] PAUSE\r\nRUNWAY CONDITION CODES PAUSE\r\n[ARPT_COND] PAUSE\r\n[TL] PAUSE\r\n[SURFACE_WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP]  [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[NOTAMS] PAUSE\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
