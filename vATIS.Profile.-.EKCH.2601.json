@@ -1,8 +1,8 @@
 {
   "name": "EKCH",
-  "id": "20bd5456-6572-431f-a184-8e4515b13165",
+  "id": "21c52821-a674-4a1b-9edd-e705baa0ed1a",
   "updateUrl": "https://raw.githubusercontent.com/Vatsim-Scandinavia/EKDK-vATIS/refs/heads/main/vATIS.Profile.-.EKCH.2601.json",
-  "updateSerial": 2026011803,
+  "updateSerial": 2026011804,
   "stations": [
     {
       "id": "ea844f5a-465b-4b4c-8c6b-9334cd537930",
@@ -2143,9 +2143,9 @@
           "voice": "PUSH BACK"
         },
         {
-          "variableName": "100",
-          "text": "100",
-          "voice": "ONE HUNDRED"
+          "variableName": "100PERCENT",
+          "text": "100 PERCENT",
+          "voice": "ONE HUNDRED PERCENT"
         },
         {
           "variableName": "FACILITY",
@@ -2231,26 +2231,41 @@
           "variableName": "CAT",
           "text": "CAT",
           "voice": "CATEGORY"
+        },
+        {
+          "variableName": "75PERCENT",
+          "text": "75 PERCENT",
+          "voice": "SEVENTY FIVE PERCENT"
+        },
+        {
+          "variableName": "50PERCENT",
+          "text": "50 PERCENT",
+          "voice": "FIFTY PERCENT"
+        },
+        {
+          "variableName": "25PERCENT",
+          "text": "25 PERCENT",
+          "voice": "TWENTY FIVE PERCENT"
         }
       ],
       "airportConditionDefinitions": [
         {
-          "text": "6, 6, 6, ALL PARTS 100 PERCENT DRY",
+          "text": "6, 6, 6, ALL PARTS 100PERCENT DRY",
           "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "5, 5, 5, ALL PARTS 100 PERCENT WET",
+          "text": "5, 5, 5, ALL PARTS 100PERCENT WET",
           "ordinal": 2,
-          "enabled": false
-        },
-        {
-          "text": "5, 5, 5, ALL PARTS 100 PERCENT 03 MILLIMETERS DRY SNOW",
-          "ordinal": 3,
           "enabled": true
         },
         {
-          "text": "4, 2, 2, DOWNGRADED.\r\nFIRST PART 100 PERCENT 03 MILLIMETERS WET SNOW,\r\nSECOND PART 100 PERCENT 04 MILLIMETERS DRY SNOW,\r\nTHIRD PART 100 PERCENT 04 MILLIMETERS DRY SNOW",
+          "text": "5, 5, 5, ALL PARTS 100PERCENT 03 MILLIMETERS DRY SNOW",
+          "ordinal": 3,
+          "enabled": false
+        },
+        {
+          "text": "4, 2, 2, DOWNGRADED.\r\nFIRST PART 100PERCENT 03 MILLIMETERS WET SNOW,\r\nSECOND PART 100PERCENT 04 MILLIMETERS DRY SNOW,\r\nTHIRD PART 100PERCENT 04 MILLIMETERS DRY SNOW",
           "ordinal": 4,
           "enabled": false
         },
@@ -2262,7 +2277,7 @@
         {
           "text": "LOW VISIBILITY PROCEDURES IN OPERATION",
           "ordinal": 6,
-          "enabled": true
+          "enabled": false
         }
       ],
       "notamDefinitions": [
@@ -4424,9 +4439,9 @@
           "voice": "TWO NINER"
         },
         {
-          "variableName": "100",
-          "text": "100",
-          "voice": "ONE HUNDRED"
+          "variableName": "100PERCENT",
+          "text": "100 PERCENT",
+          "voice": "ONE HUNDRED PERCENT"
         },
         {
           "variableName": "AT_",
@@ -4492,26 +4507,41 @@
           "variableName": "CAT",
           "text": "CAT",
           "voice": "CATEGORY"
+        },
+        {
+          "variableName": "75PERCENT",
+          "text": "75 PERCENT",
+          "voice": "SEVENTY FIVE PERCENT"
+        },
+        {
+          "variableName": "50PERCENT",
+          "text": "50 PERCENT",
+          "voice": "FIFTY PERCENT"
+        },
+        {
+          "variableName": "25PERCENT",
+          "text": "25 PERCENT",
+          "voice": "TWENTY FIVE PERCENT"
         }
       ],
       "airportConditionDefinitions": [
         {
-          "text": "6, 6, 6, ALL PARTS 100 PERCENT DRY",
+          "text": "6, 6, 6, ALL PARTS 100PERCENT DRY",
           "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "5, 5, 5, ALL PARTS 100 PERCENT WET",
+          "text": "5, 5, 5, ALL PARTS 100PERCENT WET",
           "ordinal": 2,
           "enabled": true
         },
         {
-          "text": "5, 5, 5, ALL PARTS 100 PERCENT 03 MILLIMETERS DRY SNOW",
+          "text": "5, 5, 5, ALL PARTS 100PERCENT 03 MILLIMETERS DRY SNOW",
           "ordinal": 3,
           "enabled": false
         },
         {
-          "text": "4, 2, 2, DOWNGRADED.\r\nFIRST PART 100 PERCENT 03 MILLIMETERS WET SNOW,\r\nSECOND PART 100 PERCENT 04 MILLIMETERS DRY SNOW,\r\nTHIRD PART 100 PERCENT 04 MILLIMETERS DRY SNOW",
+          "text": "4, 2, 2, DOWNGRADED.\r\nFIRST PART 100PERCENT 03 MILLIMETERS WET SNOW,\r\nSECOND PART 100PERCENT 04 MILLIMETERS DRY SNOW,\r\nTHIRD PART 100PERCENT 04 MILLIMETERS DRY SNOW",
           "ordinal": 4,
           "enabled": false
         },
@@ -6680,9 +6710,9 @@
           "voice": "SIX. SIX. SIX."
         },
         {
-          "variableName": "100",
-          "text": "100",
-          "voice": "ONE HUNDRED"
+          "variableName": "100PERCENT",
+          "text": "100 PERCENT",
+          "voice": "ONE HUNDRED PERCENT"
         },
         {
           "variableName": "300",
@@ -6763,26 +6793,41 @@
           "variableName": "CAT",
           "text": "CAT",
           "voice": "CATEGORY"
+        },
+        {
+          "variableName": "75PERCENT",
+          "text": "75 PERCENT",
+          "voice": "SEVENTY FIVE PERCENT"
+        },
+        {
+          "variableName": "50PERCENT",
+          "text": "50 PERCENT",
+          "voice": "FIFTY PERCENT"
+        },
+        {
+          "variableName": "25PERCENT",
+          "text": "25 PERCENT",
+          "voice": "TWENTY FIVE PERCENT"
         }
       ],
       "airportConditionDefinitions": [
         {
-          "text": "6, 6, 6, ALL PARTS 100 PERCENT DRY",
+          "text": "6, 6, 6, ALL PARTS 100PERCENT DRY",
           "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "5, 5, 5, ALL PARTS 100 PERCENT WET",
+          "text": "5, 5, 5, ALL PARTS 100PERCENT WET",
           "ordinal": 2,
           "enabled": true
         },
         {
-          "text": "5, 5, 5, ALL PARTS 100 PERCENT 03 MILLIMETERS DRY SNOW",
+          "text": "5, 5, 5, ALL PARTS 100PERCENT 03 MILLIMETERS DRY SNOW",
           "ordinal": 3,
           "enabled": false
         },
         {
-          "text": "4, 2, 2, DOWNGRADED.\r\nFIRST PART 100 PERCENT 03 MILLIMETERS WET SNOW,\r\nSECOND PART 100 PERCENT 04 MILLIMETERS DRY SNOW,\r\nTHIRD PART 100 PERCENT 04 MILLIMETERS DRY SNOW",
+          "text": "4, 2, 2, DOWNGRADED.\r\nFIRST PART 100PERCENT 03 MILLIMETERS WET SNOW,\r\nSECOND PART 100PERCENT 04 MILLIMETERS DRY SNOW,\r\nTHIRD PART 100PERCENT 04 MILLIMETERS DRY SNOW",
           "ordinal": 4,
           "enabled": false
         },
@@ -6812,6 +6857,4 @@
     }
   ],
   "version": 4
-
 }
-
