@@ -2,7 +2,7 @@
   "name": "EKDK",
   "id": "3f5b0b26-6c8e-4ae3-95d9-50d7b7725e38",
   "updateUrl": "https://raw.githubusercontent.com/Vatsim-Scandinavia/EKDK-vATIS/refs/heads/main/vATIS_EKDK.json",
-  "updateSerial": 2026012203,
+  "updateSerial": 2026012204,
   "stations": [
     {
       "id": "d97dd234-2106-4a40-b78d-7e6cc812231b",
@@ -2165,17 +2165,17 @@
       ],
       "airportConditionDefinitions": [
         {
-          "text": "6, 6, 6, ALL PARTS 100PERCENT DRY",
+          "text": "6, 6, 6,\r\nALL PARTS 100PERCENT DRY",
           "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "5, 5, 5, ALL PARTS 100PERCENT WET",
-          "ordinal": 2,
           "enabled": true
         },
         {
-          "text": "5, 5, 5, ALL PARTS 100PERCENT 03 MILLIMETERS DRY SNOW",
+          "text": "5, 5, 5,\r\nALL PARTS 100PERCENT WET",
+          "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "5, 5, 5,\r\nALL PARTS 100PERCENT 03 MILLIMETERS DRY SNOW",
           "ordinal": 3,
           "enabled": false
         },
@@ -2187,7 +2187,7 @@
         {
           "text": "CHEMICALLY TREATED",
           "ordinal": 5,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "LOW VISIBILITY PROCEDURES",
@@ -4371,17 +4371,17 @@
       ],
       "airportConditionDefinitions": [
         {
-          "text": "6, 6, 6, ALL PARTS 100PERCENT DRY",
+          "text": "6, 6, 6,\r\nALL PARTS 100PERCENT DRY",
           "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "5, 5, 5, ALL PARTS 100PERCENT WET",
-          "ordinal": 2,
           "enabled": true
         },
         {
-          "text": "5, 5, 5, ALL PARTS 100PERCENT 03 MILLIMETERS DRY SNOW",
+          "text": "5, 5, 5,\r\nALL PARTS 100PERCENT WET",
+          "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "5, 5, 5,\r\nALL PARTS 100PERCENT 03 MILLIMETERS DRY SNOW",
           "ordinal": 3,
           "enabled": false
         },
@@ -4393,7 +4393,7 @@
         {
           "text": "CHEMICALLY TREATED",
           "ordinal": 5,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "LOW VISIBILITY PROCEDURES",
@@ -6582,17 +6582,17 @@
       ],
       "airportConditionDefinitions": [
         {
-          "text": "6, 6, 6, ALL PARTS 100PERCENT DRY",
+          "text": "6, 6, 6,\r\nALL PARTS 100PERCENT DRY",
           "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "5, 5, 5, ALL PARTS 100PERCENT WET",
-          "ordinal": 2,
           "enabled": true
         },
         {
-          "text": "5, 5, 5, ALL PARTS 100PERCENT 03 MILLIMETERS DRY SNOW",
+          "text": "5, 5, 5,\r\nALL PARTS 100PERCENT WET",
+          "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "5, 5, 5,\r\nALL PARTS 100PERCENT 03 MILLIMETERS DRY SNOW",
           "ordinal": 3,
           "enabled": false
         },
@@ -6604,7 +6604,7 @@
         {
           "text": "CHEMICALLY TREATED",
           "ordinal": 5,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "LOW VISIBILITY PROCEDURES",
@@ -8785,17 +8785,17 @@
       ],
       "airportConditionDefinitions": [
         {
-          "text": "6, 6, 6, ALL PARTS 100PERCENT DRY",
+          "text": "6, 6, 6,\r\nALL PARTS 100PERCENT DRY",
           "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "5, 5, 5, ALL PARTS 100PERCENT WET",
-          "ordinal": 2,
           "enabled": true
         },
         {
-          "text": "5, 5, 5, ALL PARTS 100PERCENT 03 MILLIMETERS DRY SNOW",
+          "text": "5, 5, 5,\r\nALL PARTS 100PERCENT WET",
+          "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "5, 5, 5,\r\nALL PARTS 100PERCENT 03 MILLIMETERS DRY SNOW",
           "ordinal": 3,
           "enabled": false
         },
@@ -8807,7 +8807,7 @@
         {
           "text": "CHEMICALLY TREATED",
           "ordinal": 5,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "LOW VISIBILITY PROCEDURES",
@@ -11076,17 +11076,17 @@
       ],
       "airportConditionDefinitions": [
         {
-          "text": "6, 6, 6, ALL PARTS 100PERCENT DRY",
+          "text": "6, 6, 6,\r\nALL PARTS 100PERCENT DRY",
           "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "5, 5, 5, ALL PARTS 100PERCENT WET",
-          "ordinal": 2,
           "enabled": true
         },
         {
-          "text": "5, 5, 5, ALL PARTS 100PERCENT 03 MILLIMETERS DRY SNOW",
+          "text": "5, 5, 5,\r\nALL PARTS 100PERCENT WET",
+          "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "5, 5, 5,\r\nALL PARTS 100PERCENT 03 MILLIMETERS DRY SNOW",
           "ordinal": 3,
           "enabled": false
         },
@@ -11098,7 +11098,7 @@
         {
           "text": "CHEMICALLY TREATED",
           "ordinal": 5,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "LOW VISIBILITY PROCEDURES IN OPERATION",
@@ -13370,17 +13370,17 @@
       ],
       "airportConditionDefinitions": [
         {
-          "text": "6, 6, 6, ALL PARTS 100PERCENT DRY",
+          "text": "6, 6, 6,\r\nALL PARTS 100PERCENT DRY",
           "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "5, 5, 5, ALL PARTS 100PERCENT WET",
-          "ordinal": 2,
           "enabled": true
         },
         {
-          "text": "5, 5, 5, ALL PARTS 100PERCENT 03 MILLIMETERS DRY SNOW",
+          "text": "5, 5, 5,\r\nALL PARTS 100PERCENT WET",
+          "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "5, 5, 5,\r\nALL PARTS 100PERCENT 03 MILLIMETERS DRY SNOW",
           "ordinal": 3,
           "enabled": false
         },
@@ -13392,7 +13392,7 @@
         {
           "text": "CHEMICALLY TREATED",
           "ordinal": 5,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "LOW VISIBILITY PROCEDURES IN OPERATION",
@@ -15656,17 +15656,17 @@
       ],
       "airportConditionDefinitions": [
         {
-          "text": "6, 6, 6, ALL PARTS 100PERCENT DRY",
+          "text": "6, 6, 6,\r\nALL PARTS 100PERCENT DRY",
           "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "5, 5, 5, ALL PARTS 100PERCENT WET",
-          "ordinal": 2,
           "enabled": true
         },
         {
-          "text": "5, 5, 5, ALL PARTS 100PERCENT 03 MILLIMETERS DRY SNOW",
+          "text": "5, 5, 5,\r\nALL PARTS 100PERCENT WET",
+          "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "5, 5, 5,\r\nALL PARTS 100PERCENT 03 MILLIMETERS DRY SNOW",
           "ordinal": 3,
           "enabled": false
         },
@@ -15678,7 +15678,7 @@
         {
           "text": "CHEMICALLY TREATED",
           "ordinal": 5,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "LOW VISIBILITY PROCEDURES IN OPERATION",
@@ -17860,17 +17860,17 @@
       ],
       "airportConditionDefinitions": [
         {
-          "text": "6, 6, 6, ALL PARTS 100PERCENT DRY",
+          "text": "6, 6, 6,\r\nALL PARTS 100PERCENT DRY",
           "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "5, 5, 5, ALL PARTS 100PERCENT WET",
-          "ordinal": 2,
           "enabled": true
         },
         {
-          "text": "5, 5, 5, ALL PARTS 100PERCENT 03 MILLIMETERS DRY SNOW",
+          "text": "5, 5, 5,\r\nALL PARTS 100PERCENT WET",
+          "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "5, 5, 5,\r\nALL PARTS 100PERCENT 03 MILLIMETERS DRY SNOW",
           "ordinal": 3,
           "enabled": false
         },
@@ -17882,7 +17882,7 @@
         {
           "text": "CHEMICALLY TREATED",
           "ordinal": 5,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "LOW VISIBILITY PROCEDURES",
@@ -20039,29 +20039,29 @@
       ],
       "airportConditionDefinitions": [
         {
-          "text": "6, 6, 6, ALL PARTS 100 PERCENT DRY",
+          "text": "6, 6, 6,\r\nALL PARTS 100 PERCENT DRY",
           "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "5, 5, 5, ALL PARTS 100 PERCENT WET",
-          "ordinal": 2,
           "enabled": true
         },
         {
-          "text": "5, 5, 5, ALL PARTS 100 PERCENT 03 MILLIMETERS DRY SNOW",
+          "text": "5, 5, 5,\r\nALL PARTS 100 PERCENT WET",
+          "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "5, 5, 5,\r\nALL PARTS 100 PERCENT 03 MILLIMETERS DRY SNOW",
           "ordinal": 3,
           "enabled": false
         },
         {
           "text": "4, 2, 2, DOWNGRADED.\r\nFIRST PART 100 PERCENT 03 MILLIMETERS WET SNOW,\r\nSECOND PART 100 PERCENT 04 MILLIMETERS DRY SNOW,\r\nTHIRD PART 100 PERCENT 04 MILLIMETERS DRY SNOW",
-          "ordinal": 3,
+          "ordinal": 4,
           "enabled": false
         },
         {
           "text": "CHEMICALLY TREATED",
           "ordinal": 5,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "LOW VISIBILITY PROCEDURES",
