@@ -2,7 +2,7 @@
   "name": "EKDK",
   "id": "3f5b0b26-6c8e-4ae3-95d9-50d7b7725e38",
   "updateUrl": "https://raw.githubusercontent.com/Vatsim-Scandinavia/EKDK-vATIS/refs/heads/main/vATIS_EKDK.json",
-  "updateSerial": 2026012202,
+  "updateSerial": 2026012203,
   "stations": [
     {
       "id": "d97dd234-2106-4a40-b78d-7e6cc812231b",
