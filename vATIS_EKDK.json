@@ -1,8 +1,8 @@
 {
   "name": "EKDK",
-  "id": "3f5b0b26-6c8e-4ae3-95d9-50d7b7725e38",
+  "id": "bd97bf0c-18d9-4b14-afb5-cb63cc0cfecd",
   "updateUrl": "https://raw.githubusercontent.com/Vatsim-Scandinavia/EKDK-vATIS/refs/heads/main/vATIS_EKDK.json",
-  "updateSerial": 2026012204,
+  "updateSerial": 2026013101,
   "stations": [
     {
       "id": "d97dd234-2106-4a40-b78d-7e6cc812231b",
@@ -1856,7 +1856,7 @@
           "types": {
             "FEW": {
               "text": "FEW {convective} {altitude}FT ",
-              "voice": "few {convective} clouds, {altitude},"
+              "voice": "few {convective}, {altitude},"
             },
             "SCT": {
               "text": "SCT {convective} {altitude}FT ",
@@ -4055,7 +4055,7 @@
           "types": {
             "FEW": {
               "text": "FEW {convective} {altitude}FT ",
-              "voice": "few {convective} clouds, {altitude},"
+              "voice": "few {convective}, {altitude},"
             },
             "SCT": {
               "text": "SCT {convective} {altitude}FT ",
@@ -6261,7 +6261,7 @@
           "types": {
             "FEW": {
               "text": "FEW {convective} {altitude}FT ",
-              "voice": "few {convective} clouds, {altitude},"
+              "voice": "few {convective}, {altitude},"
             },
             "SCT": {
               "text": "SCT {convective} {altitude}FT ",
@@ -6602,7 +6602,7 @@
           "enabled": false
         },
         {
-          "text": "CHEMICALLY TREATED",
+          "text": "CHEMICALS HAVE BEEN SPREAD OUT",
           "ordinal": 5,
           "enabled": false
         },
@@ -8466,7 +8466,7 @@
           "types": {
             "FEW": {
               "text": "FEW {convective} {altitude}FT ",
-              "voice": "few {convective} clouds, {altitude},"
+              "voice": "few {convective}, {altitude},"
             },
             "SCT": {
               "text": "SCT {convective} {altitude}FT ",
@@ -8805,7 +8805,7 @@
           "enabled": false
         },
         {
-          "text": "CHEMICALLY TREATED",
+          "text": "CHEMICALS HAVE BEEN SPREAD OUT",
           "ordinal": 5,
           "enabled": false
         },
@@ -10675,7 +10675,7 @@
           "types": {
             "FEW": {
               "text": "FEW {convective} {altitude}FT ",
-              "voice": "few {convective} clouds, {altitude},"
+              "voice": "few {convective}, {altitude},"
             },
             "SCT": {
               "text": "SCT {convective} {altitude}FT ",
@@ -12971,7 +12971,7 @@
           "types": {
             "FEW": {
               "text": "FEW {convective} {altitude}FT ",
-              "voice": "few {convective} clouds, {altitude},"
+              "voice": "few {convective}, {altitude},"
             },
             "SCT": {
               "text": "SCT {convective} {altitude}FT ",
@@ -15265,7 +15265,7 @@
           "types": {
             "FEW": {
               "text": "FEW {convective} {altitude}FT ",
-              "voice": "few {convective} clouds, {altitude},"
+              "voice": "few {convective}, {altitude},"
             },
             "SCT": {
               "text": "SCT {convective} {altitude}FT ",
@@ -17546,7 +17546,7 @@
           "types": {
             "FEW": {
               "text": "FEW {convective} {altitude}FT ",
-              "voice": "few {convective} clouds, {altitude},"
+              "voice": "few {convective}, {altitude},"
             },
             "SCT": {
               "text": "SCT {convective} {altitude}FT ",
@@ -19750,7 +19750,7 @@
           "types": {
             "FEW": {
               "text": "FEW {convective} {altitude}FT ",
-              "voice": "few {convective} clouds, {altitude},"
+              "voice": "few {convective}, {altitude},"
             },
             "SCT": {
               "text": "SCT {convective} {altitude}FT ",

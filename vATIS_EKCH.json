@@ -1,8 +1,8 @@
 {
   "name": "EKCH",
-  "id": "21c52821-a674-4a1b-9edd-e705baa0ed1a",
+  "id": "7119edbb-55b3-4feb-af26-0b93ec59a470",
   "updateUrl": "https://raw.githubusercontent.com/Vatsim-Scandinavia/EKDK-vATIS/refs/heads/main/vATIS_EKCH.json",
-  "updateSerial": 2026012204,
+  "updateSerial": 2026013101,
   "stations": [
     {
       "id": "ea844f5a-465b-4b4c-8c6b-9334cd537930",
@@ -1856,7 +1856,7 @@
           "types": {
             "FEW": {
               "text": "FEW {convective} {altitude}FT ",
-              "voice": "few {convective} clouds, {altitude},"
+              "voice": "few {convective}, {altitude},"
             },
             "SCT": {
               "text": "SCT {convective} {altitude}FT ",
@@ -4145,7 +4145,7 @@
           "types": {
             "FEW": {
               "text": "FEW {convective} {altitude}FT ",
-              "voice": "few {convective} clouds, {altitude},"
+              "voice": "few {convective}, {altitude},"
             },
             "SCT": {
               "text": "SCT {convective} {altitude}FT ",
@@ -6416,7 +6416,7 @@
           "types": {
             "FEW": {
               "text": "FEW {convective} {altitude}FT ",
-              "voice": "few {convective} clouds, {altitude},"
+              "voice": "few {convective}, {altitude},"
             },
             "SCT": {
               "text": "SCT {convective} {altitude}FT ",
