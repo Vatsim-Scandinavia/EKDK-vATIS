@@ -2,7 +2,7 @@
   "name": "EKCH",
   "id": "7119edbb-55b3-4feb-af26-0b93ec59a470",
   "updateUrl": "https://raw.githubusercontent.com/Vatsim-Scandinavia/EKDK-vATIS/refs/heads/main/vATIS_EKCH.json",
-  "updateSerial": 2026013101,
+  "updateSerial": 2026020101,
   "stations": [
     {
       "id": "ea844f5a-465b-4b4c-8c6b-9334cd537930",
@@ -2252,12 +2252,12 @@
         {
           "text": "6, 6, 6,\r\nALL PARTS 100PERCENT DRY",
           "ordinal": 1,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "5, 5, 5,\r\nALL PARTS 100PERCENT WET",
           "ordinal": 2,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "5, 5, 5,\r\nALL PARTS 100PERCENT 03 MILLIMETERS DRY SNOW",
@@ -6572,7 +6572,7 @@
           "name": "22L",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[TIME] PAUSE\r\nEXPECT ILS APP PAUSE\r\nRWY IN USE 22L PAUSE\r\nRUNWAY 22L CONDITION REPORT AT_ [TIME] PAUSE\r\nRUNWAY CONDITION CODES PAUSE\r\n[ARPT_COND] PAUSE\r\n[TL] PAUSE\r\nAFTER LANDING EXPEDITE VACATING RWY PAUSE\r\n[SURFACE_WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP]  [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[NOTAMS] PAUSE\r\n[CLOSING]",
+          "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[TIME] PAUSE\r\nEXPECT ILS APP PAUSE\r\nRWY IN USE 22L PAUSE\r\nRUNWAY 22L CONDITION REPORT AT_ [TIME] PAUSE\r\nRUNWAY CONDITION CODES PAUSE\r\n[ARPT_COND] PAUSE\r\n[TL] PAUSE\r\nAFTER LANDING EXPEDITE\r\nVACATING RWY PAUSE\r\n[SURFACE_WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP]  [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[NOTAMS] PAUSE\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -6588,7 +6588,7 @@
           "name": "04L",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[TIME] PAUSE\r\nEXPECT ILS APP PAUSE\r\nRWY IN USE 04L PAUSE\r\nRUNWAY 04L CONDITION REPORT AT_ [TIME] PAUSE\r\nRUNWAY CONDITION CODES PAUSE\r\n[ARPT_COND] PAUSE\r\n[TL] PAUSE\r\nAFTER LANDING EXPEDITE VACATING RWY PAUSE\r\n[SURFACE_WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP]  [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[NOTAMS] PAUSE\r\n[CLOSING]",
+          "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[TIME] PAUSE\r\nEXPECT ILS APP PAUSE\r\nRWY IN USE 04L PAUSE\r\nRUNWAY 04L CONDITION REPORT AT_ [TIME] PAUSE\r\nRUNWAY CONDITION CODES PAUSE\r\n[ARPT_COND] PAUSE\r\n[TL] PAUSE\r\nAFTER LANDING EXPEDITE\r\nVACATING RWY PAUSE\r\n[SURFACE_WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP]  [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[NOTAMS] PAUSE\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -6602,7 +6602,7 @@
         {
           "id": "c9d73864-4d17-4ad9-a370-4e8b9fc6d23e",
           "name": "12",
-          "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[TIME] PAUSE\r\nEXPECT ILS APP PAUSE\r\nRWY IN USE 12 PAUSE\r\nRUNWAY 12 CONDITION REPORT AT_ [TIME] PAUSE\r\nRUNWAY CONDITION CODES PAUSE\r\n[ARPT_COND] PAUSE\r\n[TL] PAUSE\r\nAFTER LANDING EXPEDITE VACATING RWY PAUSE\r\n[SURFACE_WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP]  [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[NOTAMS] PAUSE\r\n[CLOSING]",
+          "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[TIME] PAUSE\r\nEXPECT ILS APP PAUSE\r\nRWY IN USE 12 PAUSE\r\nRUNWAY 12 CONDITION REPORT AT_ [TIME] PAUSE\r\nRUNWAY CONDITION CODES PAUSE\r\n[ARPT_COND] PAUSE\r\n[TL] PAUSE\r\nAFTER LANDING EXPEDITE\r\nVACATING RWY PAUSE\r\n[SURFACE_WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP]  [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[NOTAMS] PAUSE\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -6616,7 +6616,7 @@
         {
           "id": "279b1cad-6cd9-4a2e-b4e7-a9ed4ad541a2",
           "name": "30",
-          "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[TIME] PAUSE\r\nEXPECT ILS APP PAUSE\r\nRWY IN USE 30 PAUSE\r\nRUNWAY 30 CONDITION REPORT AT_ [TIME] PAUSE\r\nRUNWAY CONDITION CODES PAUSE\r\n[ARPT_COND] PAUSE\r\n[TL] PAUSE\r\nAFTER LANDING EXPEDITE VACATING RWY PAUSE\r\n[SURFACE_WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP]  [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[NOTAMS] PAUSE\r\n[CLOSING]",
+          "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[TIME] PAUSE\r\nEXPECT ILS APP PAUSE\r\nRWY IN USE 30 PAUSE\r\nRUNWAY 30 CONDITION REPORT AT_ [TIME] PAUSE\r\nRUNWAY CONDITION CODES PAUSE\r\n[ARPT_COND] PAUSE\r\n[TL] PAUSE\r\nAFTER LANDING EXPEDITE\r\nVACATING RWY PAUSE\r\n[SURFACE_WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP]  [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[NOTAMS] PAUSE\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -6630,7 +6630,7 @@
         {
           "id": "e05564fb-212d-4f9b-b71a-33ab8e784740",
           "name": "22R",
-          "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[TIME] PAUSE\r\nEXPECT ILS APP PAUSE\r\nRWY IN USE 22R PAUSE\r\nRUNWAY 22R CONDITION REPORT AT_ [TIME] PAUSE\r\nRUNWAY CONDITION CODES PAUSE\r\n[ARPT_COND] PAUSE\r\n[TL] PAUSE\r\nAFTER LANDING EXPEDITE VACATING RWY PAUSE\r\n[SURFACE_WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP]  [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[NOTAMS] PAUSE\r\n[CLOSING]",
+          "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[TIME] PAUSE\r\nEXPECT ILS APP PAUSE\r\nRWY IN USE 22R PAUSE\r\nRUNWAY 22R CONDITION REPORT AT_ [TIME] PAUSE\r\nRUNWAY CONDITION CODES PAUSE\r\n[ARPT_COND] PAUSE\r\n[TL] PAUSE\r\nAFTER LANDING EXPEDITE\r\nVACATING RWY PAUSE\r\n[SURFACE_WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP]  [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[NOTAMS] PAUSE\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -6646,7 +6646,7 @@
           "name": "04R",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[TIME] PAUSE\r\nEXPECT ILS APP PAUSE\r\nRWY IN USE 04R PAUSE\r\nRUNWAY 04R CONDITION REPORT AT_ [TIME] PAUSE\r\nRUNWAY CONDITION CODES PAUSE\r\n[ARPT_COND] PAUSE\r\n[TL] PAUSE\r\nAFTER LANDING EXPEDITE VACATING RWY PAUSE\r\n[SURFACE_WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP]  [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[NOTAMS] PAUSE\r\n[CLOSING]",
+          "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[TIME] PAUSE\r\nEXPECT ILS APP PAUSE\r\nRWY IN USE 04R PAUSE\r\nRUNWAY 04R CONDITION REPORT AT_ [TIME] PAUSE\r\nRUNWAY CONDITION CODES PAUSE\r\n[ARPT_COND] PAUSE\r\n[TL] PAUSE\r\nAFTER LANDING EXPEDITE\r\nVACATING RWY PAUSE\r\n[SURFACE_WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP]  [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[NOTAMS] PAUSE\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
