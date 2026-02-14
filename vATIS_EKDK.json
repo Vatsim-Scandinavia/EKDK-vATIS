@@ -2,7 +2,7 @@
   "name": "EKDK",
   "id": "bd97bf0c-18d9-4b14-afb5-cb63cc0cfecd",
   "updateUrl": "https://raw.githubusercontent.com/Vatsim-Scandinavia/EKDK-vATIS/refs/heads/main/vATIS_EKDK.json",
-  "updateSerial": 2026021201,
+  "updateSerial": 2026021401,
   "stations": [
     {
       "id": "d97dd234-2106-4a40-b78d-7e6cc812231b",
@@ -11115,7 +11115,7 @@
         {
           "text": "RISK OF TURB BLW 300 FT ON RWY 22L",
           "ordinal": 1,
-          "enabled": true
+          "enabled": false
         }
       ]
     },

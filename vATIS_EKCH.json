@@ -2,7 +2,7 @@
   "name": "EKCH",
   "id": "7119edbb-55b3-4feb-af26-0b93ec59a470",
   "updateUrl": "https://raw.githubusercontent.com/Vatsim-Scandinavia/EKDK-vATIS/refs/heads/main/vATIS_EKCH.json",
-  "updateSerial": 2026021201,
+  "updateSerial": 2026021401,
   "stations": [
     {
       "id": "ea844f5a-465b-4b4c-8c6b-9334cd537930",
@@ -2252,12 +2252,12 @@
         {
           "text": "6, 6, 6,\r\nALL PARTS 100PERCENT DRY",
           "ordinal": 1,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "5, 5, 5,\r\nALL PARTS 100PERCENT WET",
           "ordinal": 2,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "5, 5, 5,\r\nALL PARTS 100PERCENT 03 MILLIMETERS DRY SNOW",
@@ -6851,7 +6851,7 @@
         {
           "text": "RISK OF TURB BLW 300 FT ON RWY 22L",
           "ordinal": 1,
-          "enabled": true
+          "enabled": false
         }
       ]
     }
