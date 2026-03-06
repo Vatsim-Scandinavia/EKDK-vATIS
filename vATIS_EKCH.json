@@ -2,7 +2,7 @@
   "name": "EKCH",
   "id": "7119edbb-55b3-4feb-af26-0b93ec59a470",
   "updateUrl": "https://raw.githubusercontent.com/Vatsim-Scandinavia/EKDK-vATIS/refs/heads/main/vATIS_EKCH.json",
-  "updateSerial": 2026021401,
+  "updateSerial": 2026030601,
   "stations": [
     {
       "id": "ea844f5a-465b-4b4c-8c6b-9334cd537930",
@@ -2289,7 +2289,7 @@
         {
           "text": "STATE IF REQUESTING DEICING",
           "ordinal": 2,
-          "enabled": true
+          "enabled": false
         }
       ]
     },
@@ -4560,7 +4560,7 @@
         {
           "text": "ON FIRST CONTACT, STATE IF REQUESTING DEICING",
           "ordinal": 1,
-          "enabled": true
+          "enabled": false
         }
       ]
     },
