@@ -2,7 +2,7 @@
   "name": "EKDK",
   "id": "bd97bf0c-18d9-4b14-afb5-cb63cc0cfecd",
   "updateUrl": "https://raw.githubusercontent.com/Vatsim-Scandinavia/EKDK-vATIS/refs/heads/main/vATIS_EKDK.json",
-  "updateSerial": 2026030601,
+  "updateSerial": 2026032001,
   "stations": [
     {
       "id": "d97dd234-2106-4a40-b78d-7e6cc812231b",
@@ -13366,6 +13366,11 @@
           "variableName": "25PERCENT",
           "text": "25 PERCENT",
           "voice": "TWENTY FIVE PERCENT"
+        },
+        {
+          "variableName": "1000FT",
+          "text": "1000FT",
+          "voice": "ONE THOUSAND FEET"
         }
       ],
       "airportConditionDefinitions": [
@@ -13402,13 +13407,18 @@
       ],
       "notamDefinitions": [
         {
-          "text": "ON FIRST CONTACT WITH KASTRUP APRON,\r\nADVISE IF UNABLE TO PERFORM PUSHBACK\r\nTO A RELEASE POINT",
+          "text": "DELIVERY FREQ 119.905 ACTIVE",
           "ordinal": 1,
           "enabled": true
         },
         {
-          "text": "STATE IF REQUESTING DEICING",
+          "text": "\r\nAFTER PASSING 1000FT, CONTACT KASTRUP DEPARTURE USING FREQ STATED ON CHARTS,\r\nUNLESS OTHERWISE INSTRUCTED",
           "ordinal": 2,
+          "enabled": true
+        },
+        {
+          "text": "STATE IF REQUESTING DEICING",
+          "ordinal": 3,
           "enabled": false
         }
       ]
