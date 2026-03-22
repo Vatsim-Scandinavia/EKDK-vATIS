@@ -2,7 +2,7 @@
   "name": "EKCH",
   "id": "7119edbb-55b3-4feb-af26-0b93ec59a470",
   "updateUrl": "https://raw.githubusercontent.com/Vatsim-Scandinavia/EKDK-vATIS/refs/heads/main/vATIS_EKCH.json",
-  "updateSerial": 2026032001,
+  "updateSerial": 2026032201,
   "stations": [
     {
       "id": "ea844f5a-465b-4b4c-8c6b-9334cd537930",
@@ -2292,7 +2292,7 @@
           "enabled": true
         },
         {
-          "text": "\r\nAFTER PASSING 1000FT, CONTACT KASTRUP DEPARTURE USING FREQ STATED ON CHARTS,\r\nUNLESS OTHERWISE INSTRUCTED",
+          "text": "\r\nAFTER PASSING 1000FT, CONTACT KASTRUP\r\nDEPARTURE USING FREQ STATED ON CHARTS,\r\nUNLESS OTHERWISE INSTRUCTED",
           "ordinal": 2,
           "enabled": true
         },
