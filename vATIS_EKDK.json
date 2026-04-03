@@ -2,7 +2,7 @@
   "name": "EKDK",
   "id": "bd97bf0c-18d9-4b14-afb5-cb63cc0cfecd",
   "updateUrl": "https://raw.githubusercontent.com/Vatsim-Scandinavia/EKDK-vATIS/refs/heads/main/vATIS_EKDK.json",
-  "updateSerial": 2026040301,
+  "updateSerial": 2026040302,
   "stations": [
     {
       "id": "d97dd234-2106-4a40-b78d-7e6cc812231b",
@@ -4367,6 +4367,11 @@
           "variableName": "25PERCENT",
           "text": "25 PERCENT",
           "voice": "TWENTY FIVE PERCENT"
+        },
+        {
+          "variableName": "1000FT",
+          "text": "1000FT",
+          "voice": "ONE THOUSAND FEET"
         }
       ],
       "airportConditionDefinitions": [
@@ -4402,6 +4407,11 @@
         }
       ],
       "notamDefinitions": [
+        {
+          "text": "AFTER PASSING 1000FT, CONTACT AALBORG\r\nAPPROACH USING FREQ STATED ON CHARTS,\r\nUNLESS OTHERWISE INSTRUCTED",
+          "ordinal": 1,
+          "enabled": false
+        },
         {
           "text": "ON FIRST CONTACT, STATE IF REQUESTING DEICING",
           "ordinal": 1,
@@ -8781,6 +8791,11 @@
           "variableName": "25PERCENT",
           "text": "25 PERCENT",
           "voice": "TWENTY FIVE PERCENT"
+        },
+        {
+          "variableName": "1500FT",
+          "text": "1500FT",
+          "voice": "ONE THOUSAND FIVE HUNDRED FEET"
         }
       ],
       "airportConditionDefinitions": [
@@ -8817,8 +8832,13 @@
       ],
       "notamDefinitions": [
         {
-          "text": "ON FIRST CONTACT, STATE IF REQUESTING DEICING",
+          "text": "AFTER PASSING 1500FT, CONTACT BILLUND\r\nAPPROACH USING FREQ STATED ON CHARTS,\r\nUNLESS OTHERWISE INSTRUCTED",
           "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "ON FIRST CONTACT, STATE IF REQUESTING DEICING",
+          "ordinal": 2,
           "enabled": false
         }
       ]
