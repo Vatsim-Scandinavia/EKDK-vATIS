@@ -1,8 +1,8 @@
 {
   "name": "EKDK",
-  "id": "bd97bf0c-18d9-4b14-afb5-cb63cc0cfecd",
+  "id": "b88713b8-59ea-40cc-8e3d-1bd6e942b6c5",
   "updateUrl": "https://raw.githubusercontent.com/Vatsim-Scandinavia/EKDK-vATIS/refs/heads/main/vATIS_EKDK.json",
-  "updateSerial": 2026040302,
+  "updateSerial": 2026091501,
   "stations": [
     {
       "id": "d97dd234-2106-4a40-b78d-7e6cc812231b",
@@ -2277,7 +2277,7 @@
           "southWest": "to the south-west",
           "west": "to the west",
           "northWest": "to the north-west",
-          "unlimitedVisibilityVoice": "visibility ten kilometers",
+          "unlimitedVisibilityVoice": "visibility one zero kilometers",
           "unlimitedVisibilityText": "VIS 10KM",
           "includeVisibilitySuffix": true,
           "metersCutoff": 4995,
@@ -4055,19 +4055,19 @@
           "types": {
             "FEW": {
               "text": "FEW {convective} {altitude}FT ",
-              "voice": "few {convective}, {altitude},"
+              "voice": "few {convective}, {altitude} feet,"
             },
             "SCT": {
               "text": "SCT {convective} {altitude}FT ",
-              "voice": "scattered {convective}, {altitude},"
+              "voice": "scattered {convective}, {altitude} feet,"
             },
             "BKN": {
               "text": "BKN {convective} {altitude}FT ",
-              "voice": "broken {convective}, {altitude},"
+              "voice": "broken {convective}, {altitude} feet,"
             },
             "OVC": {
               "text": "OVC {convective} {altitude}FT ",
-              "voice": "overcast {convective}, {altitude},"
+              "voice": "overcast {convective}, {altitude} feet,"
             },
             "VV": {
               "text": "VV {altitude} FT ",
@@ -4203,7 +4203,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "US Male",
-        "speechRate": 150
+        "speechRate": 160
       },
       "presets": [
         {
@@ -4211,7 +4211,7 @@
           "name": "26R",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] ATIS [ATIS_CODE] PAUSE\r\n[TIME] PAUSE\r\nEXPECT RADAR VECTORS FOR ILS APP PAUSE\r\nRWY IN USE 26R PAUSE\r\nRUNWAY 26R CONDITION REPORT AT [TIME] PAUSE\r\nRUNWAY CONDITION CODES PAUSE\r\n[ARPT_COND] PAUSE\r\n[TL] PAUSE\r\n[SURFACE_WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP]  [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[NOTAMS] PAUSE\r\n[CLOSING]",
+          "template": "[FACILITY] ATIS [ATIS_CODE] PAUSE\r\n[TIME] PAUSE\r\nEXPECT ILS APP PAUSE\r\nRWY IN USE 26R PAUSE\r\nRUNWAY 26R CONDITION REPORT AT [TIME] PAUSE\r\nRUNWAY CONDITION CODES PAUSE\r\n[ARPT_COND] PAUSE\r\n[TL] PAUSE\r\n[SURFACE_WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP]  [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[NOTAMS] PAUSE\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4225,7 +4225,7 @@
         {
           "id": "f62bce1d-cb8f-4e05-a889-700615ebb5d8",
           "name": "08L",
-          "template": "[FACILITY] ATIS [ATIS_CODE] PAUSE\r\n[TIME] PAUSE\r\nEXPECT RADAR VECTORS FOR ILS APP PAUSE\r\nRWY IN USE 08L PAUSE\r\nRUNWAY 08L CONDITION REPORT AT [TIME] PAUSE\r\nRUNWAY CONDITION CODES PAUSE\r\n[ARPT_COND] PAUSE\r\n[TL] PAUSE\r\n[SURFACE_WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP]  [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[NOTAMS] PAUSE\r\n[CLOSING]",
+          "template": "[FACILITY] ATIS [ATIS_CODE] PAUSE\r\n[TIME] PAUSE\r\nEXPECT ILS APP PAUSE\r\nRWY IN USE 08L PAUSE\r\nRUNWAY 08L CONDITION REPORT AT [TIME] PAUSE\r\nRUNWAY CONDITION CODES PAUSE\r\n[ARPT_COND] PAUSE\r\n[TL] PAUSE\r\n[SURFACE_WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP]  [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[NOTAMS] PAUSE\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4376,33 +4376,43 @@
       ],
       "airportConditionDefinitions": [
         {
-          "text": "6, 6, 6,\r\nALL PARTS 100PERCENT DRY",
+          "text": "6, 6, 6,\r\nALL PARTS PAUSE DRY",
           "ordinal": 1,
           "enabled": true
         },
         {
-          "text": "5, 5, 5,\r\nALL PARTS 100PERCENT WET",
-          "ordinal": 2,
+          "text": "5, 5, 5,\r\nALL PARTS PAUSE WET",
+          "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "5, 5, 5,\r\nALL PARTS 100PERCENT 03 MILLIMETERS DRY SNOW",
+          "text": "6, 6, 6,\r\nALL PARTS 100PERCENT DRY",
           "ordinal": 3,
           "enabled": false
         },
         {
-          "text": "4, 2, 2, DOWNGRADED.\r\nFIRST PART 100PERCENT 03 MILLIMETERS WET SNOW,\r\nSECOND PART 100PERCENT 04 MILLIMETERS DRY SNOW,\r\nTHIRD PART 100PERCENT 04 MILLIMETERS DRY SNOW",
+          "text": "5, 5, 5,\r\nALL PARTS 100PERCENT WET",
           "ordinal": 4,
           "enabled": false
         },
         {
-          "text": "CHEMICALLY TREATED",
+          "text": "5, 5, 5,\r\nALL PARTS 100PERCENT 03 MILLIMETERS DRY SNOW",
           "ordinal": 5,
           "enabled": false
         },
         {
-          "text": "LOW VISIBILITY PROCEDURES",
+          "text": "4, 2, 2, DOWNGRADED.\r\nFIRST PART 100PERCENT 03 MILLIMETERS WET SNOW,\r\nSECOND PART 100PERCENT 04 MILLIMETERS DRY SNOW,\r\nTHIRD PART 100PERCENT 04 MILLIMETERS DRY SNOW",
           "ordinal": 6,
+          "enabled": false
+        },
+        {
+          "text": "CHEMICALLY TREATED",
+          "ordinal": 7,
+          "enabled": false
+        },
+        {
+          "text": "LOW VISIBILITY PROCEDURES",
+          "ordinal": 8,
           "enabled": false
         }
       ],
@@ -6271,23 +6281,23 @@
           "types": {
             "FEW": {
               "text": "FEW {convective} {altitude}FT ",
-              "voice": "few {convective}, {altitude},"
+              "voice": "few {convective}, {altitude} feet,"
             },
             "SCT": {
               "text": "SCT {convective} {altitude}FT ",
-              "voice": "scattered {convective}, {altitude},"
+              "voice": "scattered {convective}, {altitude} feet,"
             },
             "BKN": {
               "text": "BKN {convective} {altitude}FT ",
-              "voice": "broken {convective}, {altitude},"
+              "voice": "broken {convective}, {altitude} feet,"
             },
             "OVC": {
               "text": "OVC {convective} {altitude}FT ",
-              "voice": "overcast {convective}, {altitude},"
+              "voice": "overcast {convective}, {altitude} feet,"
             },
             "VV": {
               "text": "VV {altitude} FT ",
-              "voice": "vertical visibility, {altitude}"
+              "voice": "vertical visibility, {altitude} feet"
             },
             "NSC": {
               "text": "NSC",
@@ -8476,23 +8486,23 @@
           "types": {
             "FEW": {
               "text": "FEW {convective} {altitude}FT ",
-              "voice": "few {convective}, {altitude},"
+              "voice": "few {convective}, {altitude} feet,"
             },
             "SCT": {
               "text": "SCT {convective} {altitude}FT ",
-              "voice": "scattered {convective}, {altitude},"
+              "voice": "scattered {convective}, {altitude} feet,"
             },
             "BKN": {
               "text": "BKN {convective} {altitude}FT ",
-              "voice": "broken {convective}, {altitude},"
+              "voice": "broken {convective}, {altitude} feet,"
             },
             "OVC": {
               "text": "OVC {convective} {altitude}FT ",
-              "voice": "overcast {convective}, {altitude},"
+              "voice": "overcast {convective}, {altitude} feet,"
             },
             "VV": {
               "text": "VV {altitude} FT ",
-              "voice": "vertical visibility, {altitude}"
+              "voice": "vertical visibility, {altitude} feet"
             },
             "NSC": {
               "text": "NSC",
