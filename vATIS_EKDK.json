@@ -2,7 +2,7 @@
   "name": "EKDK",
   "id": "b88713b8-59ea-40cc-8e3d-1bd6e942b6c5",
   "updateUrl": "https://raw.githubusercontent.com/Vatsim-Scandinavia/EKDK-vATIS/refs/heads/main/vATIS_EKDK.json",
-  "updateSerial": 2026102302,
+  "updateSerial": 2026102303,
   "stations": [
     {
       "id": "d97dd234-2106-4a40-b78d-7e6cc812231b",
@@ -2474,13 +2474,13 @@
           "text": "5, 5, 5,\r\nALL PARTS 100PERCENT WET",
           "ordinal": 2,
           "weatherCondition": "weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR weather INCLUDES TSRA",
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "5, 5, 5,\r\nALL PARTS 100PERCENT 03 MILLIMETERS DRY SNOW",
           "ordinal": 3,
           "weatherCondition": "weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN",
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "4, 2, 2, DOWNGRADED.\r\nFIRST PART 100PERCENT 03 MILLIMETERS WET SNOW,\r\nSECOND PART 100PERCENT 04 MILLIMETERS DRY SNOW,\r\nTHIRD PART 100PERCENT 04 MILLIMETERS DRY SNOW",
@@ -2491,13 +2491,13 @@
           "text": "CHEMICALLY TREATED",
           "ordinal": 5,
           "weatherCondition": "temperature <= 3c",
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "LOW VISIBILITY PROCEDURES",
           "ordinal": 6,
           "weatherCondition": "visibility <= 3000m OR rvr < 550m",
-          "enabled": false
+          "enabled": true
         }
       ],
       "notamDefinitions": [
@@ -2505,7 +2505,7 @@
           "text": "ON FIRST CONTACT, STATE IF REQUESTING DEICING",
           "ordinal": 1,
           "weatherCondition": "temperature <= 3c",
-          "enabled": false
+          "enabled": true
         }
       ],
       "datisTextReplacements": [],
@@ -4996,13 +4996,13 @@
           "text": "5, 5, 5,\r\nALL PARTS PAUSE WET",
           "ordinal": 2,
           "weatherCondition": "weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR weather INCLUDES TSRA",
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "5, 5, 5,\r\nALL PARTS 100PERCENT 03 MILLIMETERS DRY SNOW",
           "ordinal": 3,
           "weatherCondition": "weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN",
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "4, 2, 2, DOWNGRADED.\r\nFIRST PART 100PERCENT 03 MILLIMETERS WET SNOW,\r\nSECOND PART 100PERCENT 04 MILLIMETERS DRY SNOW,\r\nTHIRD PART 100PERCENT 04 MILLIMETERS DRY SNOW",
@@ -5013,13 +5013,13 @@
           "text": "CHEMICALLY TREATED",
           "ordinal": 5,
           "weatherCondition": "temperature <= 3c",
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "LOW VISIBILITY PROCEDURES",
           "ordinal": 6,
           "weatherCondition": "visibility <= 3000m OR rvr < 550m",
-          "enabled": false
+          "enabled": true
         }
       ],
       "notamDefinitions": [
@@ -5028,13 +5028,13 @@
           "ordinal": 1,
           "stationCondition": "WhenOnline",
           "stationCallsigns": "EKYT_APP",
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "ON FIRST CONTACT, STATE IF REQUESTING DEICING",
           "ordinal": 2,
           "weatherCondition": "temperature <= 3c",
-          "enabled": false
+          "enabled": true
         }
       ],
       "datisTextReplacements": [],
@@ -7525,13 +7525,13 @@
           "text": "5, 5, 5,\r\nALL PARTS 100PERCENT WET",
           "ordinal": 2,
           "weatherCondition": "weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR weather INCLUDES TSRA",
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "5, 5, 5,\r\nALL PARTS 100PERCENT 03 MILLIMETERS DRY SNOW",
           "ordinal": 3,
           "weatherCondition": "weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN",
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "4, 2, 2, DOWNGRADED.\r\nFIRST PART 100PERCENT 03 MILLIMETERS WET SNOW,\r\nSECOND PART 100PERCENT 04 MILLIMETERS DRY SNOW,\r\nTHIRD PART 100PERCENT 04 MILLIMETERS DRY SNOW",
@@ -7542,13 +7542,13 @@
           "text": "CHEMICALS HAVE BEEN SPREAD OUT",
           "ordinal": 5,
           "weatherCondition": "temperature <= 3c",
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "LOW VISIBILITY PROCEDURES",
           "ordinal": 6,
           "weatherCondition": "visibility <= 3000m OR rvr < 550m",
-          "enabled": false
+          "enabled": true
         }
       ],
       "notamDefinitions": [],
@@ -10043,13 +10043,13 @@
           "text": "5, 5, 5,\r\nALL PARTS 100PERCENT WET",
           "ordinal": 2,
           "weatherCondition": "weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR weather INCLUDES TSRA",
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "5, 5, 5,\r\nALL PARTS 100PERCENT 03 MILLIMETERS DRY SNOW",
           "ordinal": 3,
           "weatherCondition": "weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN",
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "4, 2, 2, DOWNGRADED.\r\nFIRST PART 100PERCENT 03 MILLIMETERS WET SNOW,\r\nSECOND PART 100PERCENT 04 MILLIMETERS DRY SNOW,\r\nTHIRD PART 100PERCENT 04 MILLIMETERS DRY SNOW",
@@ -10060,13 +10060,13 @@
           "text": "CHEMICALS HAVE BEEN SPREAD OUT",
           "ordinal": 5,
           "weatherCondition": "temperature <= 3c",
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "LOW VISIBILITY PROCEDURES",
           "ordinal": 6,
           "weatherCondition": "visibility <= 3000m OR rvr < 550m",
-          "enabled": false
+          "enabled": true
         }
       ],
       "notamDefinitions": [
@@ -10075,13 +10075,13 @@
           "ordinal": 1,
           "stationCondition": "WhenOnline",
           "stationCallsigns": "EKBI_APP",
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "ON FIRST CONTACT, STATE IF REQUESTING DEICING",
           "ordinal": 2,
           "weatherCondition": "temperature <= 3c",
-          "enabled": false
+          "enabled": true
         }
       ],
       "datisTextReplacements": [],
@@ -12652,13 +12652,13 @@
           "text": "5, 5, 5,\r\nALL PARTS 100PERCENT WET",
           "ordinal": 2,
           "weatherCondition": "weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR weather INCLUDES TSRA",
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "5, 5, 5,\r\nALL PARTS 100PERCENT 03 MILLIMETERS DRY SNOW",
           "ordinal": 3,
           "weatherCondition": "weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN",
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "4, 2, 2, DOWNGRADED.\r\nFIRST PART 100PERCENT 03 MILLIMETERS WET SNOW,\r\nSECOND PART 100PERCENT 04 MILLIMETERS DRY SNOW,\r\nTHIRD PART 100PERCENT 04 MILLIMETERS DRY SNOW",
@@ -12669,19 +12669,19 @@
           "text": "CHEMICALLY TREATED",
           "ordinal": 5,
           "weatherCondition": "temperature <= 3c",
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "LOW VISIBILITY PROCEDURES IN OPERATION",
           "ordinal": 6,
           "weatherCondition": "visibility <= 3000m OR rvr < 550m",
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "AT FIRST CONTACT WITH APPROACH, STATE IF REQ CAT 3",
           "ordinal": 7,
           "weatherCondition": "rvr < 550m or ceiling <= 200ft",
-          "enabled": false
+          "enabled": true
         }
       ],
       "notamDefinitions": [
@@ -15262,13 +15262,13 @@
           "text": "5, 5, 5,\r\nALL PARTS 100PERCENT WET",
           "ordinal": 2,
           "weatherCondition": "weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR weather INCLUDES TSRA",
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "5, 5, 5,\r\nALL PARTS 100PERCENT 03 MILLIMETERS DRY SNOW",
           "ordinal": 3,
           "weatherCondition": "weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN",
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "4, 2, 2, DOWNGRADED.\r\nFIRST PART 100PERCENT 03 MILLIMETERS WET SNOW,\r\nSECOND PART 100PERCENT 04 MILLIMETERS DRY SNOW,\r\nTHIRD PART 100PERCENT 04 MILLIMETERS DRY SNOW",
@@ -15279,13 +15279,13 @@
           "text": "CHEMICALLY TREATED",
           "ordinal": 5,
           "weatherCondition": "temperature <= 3c",
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "LOW VISIBILITY PROCEDURES IN OPERATION",
           "ordinal": 6,
           "weatherCondition": "visibility <= 3000m OR rvr < 550m",
-          "enabled": false
+          "enabled": true
         }
       ],
       "notamDefinitions": [
@@ -15294,20 +15294,20 @@
           "ordinal": 1,
           "stationCondition": "WhenOnline",
           "stationCallsigns": "EKCH_*_GND, EKCH_DEL",
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "\r\nAFTER PASSING 1000FT, CONTACT KASTRUP\r\nDEPARTURE USING FREQ STATED ON CHARTS,\r\nUNLESS OTHERWISE INSTRUCTED",
           "ordinal": 2,
           "stationCondition": "WhenOnline",
           "stationCallsigns": "EKCH_*_APP",
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "STATE IF REQUESTING DEICING",
           "ordinal": 3,
           "weatherCondition": "temperature <= 3c",
-          "enabled": false
+          "enabled": true
         }
       ],
       "datisTextReplacements": [],
@@ -17868,13 +17868,13 @@
           "text": "5, 5, 5,\r\nALL PARTS 100PERCENT WET",
           "ordinal": 2,
           "weatherCondition": "weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR weather INCLUDES TSRA",
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "5, 5, 5,\r\nALL PARTS 100PERCENT 03 MILLIMETERS DRY SNOW",
           "ordinal": 3,
           "weatherCondition": "weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN",
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "4, 2, 2, DOWNGRADED.\r\nFIRST PART 100PERCENT 03 MILLIMETERS WET SNOW,\r\nSECOND PART 100PERCENT 04 MILLIMETERS DRY SNOW,\r\nTHIRD PART 100PERCENT 04 MILLIMETERS DRY SNOW",
@@ -17885,13 +17885,13 @@
           "text": "CHEMICALLY TREATED",
           "ordinal": 5,
           "weatherCondition": "temperature <= 3c",
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "LOW VISIBILITY PROCEDURES IN OPERATION",
           "ordinal": 6,
           "weatherCondition": "visibility <= 3000m OR rvr < 550m",
-          "enabled": false
+          "enabled": true
         }
       ],
       "notamDefinitions": [
@@ -17899,7 +17899,7 @@
           "text": "ON FIRST CONTACT, STATE IF REQUESTING DEICING",
           "ordinal": 1,
           "weatherCondition": "temperature <= 3c",
-          "enabled": false
+          "enabled": true
         }
       ],
       "datisTextReplacements": [],
@@ -20383,13 +20383,13 @@
           "text": "5, 5, 5,\r\nALL PARTS 100PERCENT WET",
           "ordinal": 2,
           "weatherCondition": "weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR weather INCLUDES TSRA",
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "5, 5, 5,\r\nALL PARTS 100PERCENT 03 MILLIMETERS DRY SNOW",
           "ordinal": 3,
           "weatherCondition": "weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN",
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "4, 2, 2, DOWNGRADED.\r\nFIRST PART 100PERCENT 03 MILLIMETERS WET SNOW,\r\nSECOND PART 100PERCENT 04 MILLIMETERS DRY SNOW,\r\nTHIRD PART 100PERCENT 04 MILLIMETERS DRY SNOW",
@@ -20400,13 +20400,13 @@
           "text": "CHEMICALLY TREATED",
           "ordinal": 5,
           "weatherCondition": "temperature <= 3c",
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "LOW VISIBILITY PROCEDURES",
           "ordinal": 6,
           "weatherCondition": "visibility <= 3000m OR rvr < 550m",
-          "enabled": false
+          "enabled": true
         }
       ],
       "notamDefinitions": [
@@ -20414,7 +20414,7 @@
           "text": "ON FIRST CONTACT, STATE IF REQUESTING DEICING",
           "ordinal": 1,
           "weatherCondition": "temperature <= 3c",
-          "enabled": false
+          "enabled": true
         }
       ],
       "datisTextReplacements": [],
@@ -22873,13 +22873,13 @@
           "text": "5, 5, 5,\r\nALL PARTS 100 PERCENT WET",
           "ordinal": 2,
           "weatherCondition": "weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR weather INCLUDES TSRA",
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "5, 5, 5,\r\nALL PARTS 100 PERCENT 03 MILLIMETERS DRY SNOW",
           "ordinal": 3,
           "weatherCondition": "weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN",
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "4, 2, 2, DOWNGRADED.\r\nFIRST PART 100 PERCENT 03 MILLIMETERS WET SNOW,\r\nSECOND PART 100 PERCENT 04 MILLIMETERS DRY SNOW,\r\nTHIRD PART 100 PERCENT 04 MILLIMETERS DRY SNOW",
@@ -22890,13 +22890,13 @@
           "text": "CHEMICALLY TREATED",
           "ordinal": 5,
           "weatherCondition": "temperature <= 3c",
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "LOW VISIBILITY PROCEDURES",
           "ordinal": 6,
           "weatherCondition": "visibility <= 3000m OR rvr < 550m",
-          "enabled": false
+          "enabled": true
         }
       ],
       "notamDefinitions": [
@@ -22904,7 +22904,7 @@
           "text": "ON FIRST CONTACT, STATE IF REQUESTING DEICING",
           "ordinal": 1,
           "weatherCondition": "temperature <= 3c",
-          "enabled": false
+          "enabled": true
         }
       ],
       "datisTextReplacements": [],
