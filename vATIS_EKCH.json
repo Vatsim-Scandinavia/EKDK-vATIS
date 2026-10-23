@@ -2,7 +2,7 @@
   "name": "EKCH",
   "id": "7119edbb-55b3-4feb-af26-0b93ec59a470",
   "updateUrl": "https://raw.githubusercontent.com/Vatsim-Scandinavia/EKDK-vATIS/refs/heads/main/vATIS_EKCH.json",
-  "updateSerial": 2026102303,
+  "updateSerial": 2026102304,
   "stations": [
     {
       "id": "ea844f5a-465b-4b4c-8c6b-9334cd537930",
@@ -2557,7 +2557,7 @@
         {
           "text": "6, 6, 6,\r\nALL PARTS 100PERCENT DRY",
           "ordinal": 1,
-          "weatherCondition": "weather EXCLUDES SHRA OR weather EXCLUDES RA OR weather EXCLUDES DZ OR weather EXCLUDES TSRA or weather EXCLUDES SN or weather EXCLUDES SHSN OR weather EXCLUDES BLSN",
+          "weatherCondition": "weather EXCLUDES SHRA AND weather EXCLUDES RA AND weather EXCLUDES DZ AND weather EXCLUDES TSRA AND weather EXCLUDES SN AND weather EXCLUDES SHSN AND weather EXCLUDES BLSN",
           "enabled": true
         },
         {
@@ -5157,7 +5157,7 @@
         {
           "text": "6, 6, 6,\r\nALL PARTS 100PERCENT DRY",
           "ordinal": 1,
-          "weatherCondition": "weather EXCLUDES SHRA OR weather EXCLUDES RA OR weather EXCLUDES DZ OR weather EXCLUDES TSRA or weather EXCLUDES SN or weather EXCLUDES SHSN OR weather EXCLUDES BLSN",
+          "weatherCondition": "weather EXCLUDES SHRA AND weather EXCLUDES RA AND weather EXCLUDES DZ AND weather EXCLUDES TSRA AND weather EXCLUDES SN AND weather EXCLUDES SHSN AND weather EXCLUDES BLSN",
           "enabled": true
         },
         {
@@ -7754,7 +7754,7 @@
         {
           "text": "6, 6, 6,\r\nALL PARTS 100PERCENT DRY",
           "ordinal": 1,
-          "weatherCondition": "weather EXCLUDES SHRA OR weather EXCLUDES RA OR weather EXCLUDES DZ OR weather EXCLUDES TSRA or weather EXCLUDES SN or weather EXCLUDES SHSN OR weather EXCLUDES BLSN",
+          "weatherCondition": "weather EXCLUDES SHRA AND weather EXCLUDES RA AND weather EXCLUDES DZ AND weather EXCLUDES TSRA AND weather EXCLUDES SN AND weather EXCLUDES SHSN AND weather EXCLUDES BLSN",
           "enabled": true
         },
         {
