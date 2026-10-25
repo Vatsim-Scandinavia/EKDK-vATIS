@@ -2,7 +2,7 @@
   "name": "EKCH",
   "id": "7119edbb-55b3-4feb-af26-0b93ec59a470",
   "updateUrl": "https://raw.githubusercontent.com/Vatsim-Scandinavia/EKDK-vATIS/refs/heads/main/vATIS_EKCH.json",
-  "updateSerial": 2026102304,
+  "updateSerial": 2026102501,
   "stations": [
     {
       "id": "ea844f5a-465b-4b4c-8c6b-9334cd537930",
@@ -2130,6 +2130,8 @@
           "temporaryVoice": "TEMPO.",
           "notAvailableText": "",
           "notAvailableVoice": "",
+          "templateText": "{Trend}",
+          "templateVoice": "{Trend}",
           "template": {}
         },
         "windShear": {
@@ -2561,31 +2563,61 @@
           "enabled": true
         },
         {
-          "text": "5, 5, 5,\r\nALL PARTS 100PERCENT WET",
+          "text": "",
           "ordinal": 2,
+          "newLineOnly": true,
+          "enabled": true
+        },
+        {
+          "text": "5, 5, 5,\r\nALL PARTS 100PERCENT WET",
+          "ordinal": 3,
           "weatherCondition": "weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR weather INCLUDES TSRA",
           "enabled": true
         },
         {
+          "text": "",
+          "ordinal": 4,
+          "newLineOnly": true,
+          "enabled": true
+        },
+        {
           "text": "5, 5, 5,\r\nALL PARTS 100PERCENT 03 MILLIMETERS DRY SNOW",
-          "ordinal": 3,
+          "ordinal": 5,
           "weatherCondition": "weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN",
           "enabled": true
         },
         {
+          "text": "",
+          "ordinal": 6,
+          "newLineOnly": true,
+          "enabled": true
+        },
+        {
           "text": "4, 2, 2, DOWNGRADED.\r\nFIRST PART 100PERCENT 03 MILLIMETERS WET SNOW,\r\nSECOND PART 100PERCENT 04 MILLIMETERS DRY SNOW,\r\nTHIRD PART 100PERCENT 04 MILLIMETERS DRY SNOW",
-          "ordinal": 4,
+          "ordinal": 7,
           "enabled": false
         },
         {
+          "text": "",
+          "ordinal": 8,
+          "newLineOnly": true,
+          "enabled": true
+        },
+        {
           "text": "CHEMICALLY TREATED",
-          "ordinal": 5,
+          "ordinal": 9,
           "weatherCondition": "temperature <= 3c",
           "enabled": true
         },
         {
+          "text": "",
+          "ordinal": 10,
+          "newLineOnly": true,
+          "enabled": true
+        },
+        {
           "text": "LOW VISIBILITY PROCEDURES IN OPERATION",
-          "ordinal": 6,
+          "ordinal": 11,
           "weatherCondition": "visibility <= 3000m OR rvr < 550m",
           "enabled": true
         }
@@ -2594,20 +2626,30 @@
         {
           "text": "DELIVERY FREQ 119.905 ACTIVE",
           "ordinal": 1,
-          "stationCondition": "WhenOnline",
-          "stationCallsigns": "EKCH_*_GND, EKCH_DEL",
+          "onlineCondition": "EKCH_*_GND OR EKCH_DEL",
           "enabled": true
         },
         {
-          "text": "\r\nAFTER PASSING 1000FT, CONTACT KASTRUP\r\nDEPARTURE USING FREQ STATED ON CHARTS,\r\nUNLESS OTHERWISE INSTRUCTED",
+          "text": "",
           "ordinal": 2,
-          "stationCondition": "WhenOnline",
-          "stationCallsigns": "EKCH_*_APP",
+          "newLineOnly": true,
+          "enabled": true
+        },
+        {
+          "text": "AFTER PASSING 1000FT, CONTACT KASTRUP\r\nDEPARTURE USING FREQ STATED ON CHARTS,\r\nUNLESS OTHERWISE INSTRUCTED",
+          "ordinal": 3,
+          "onlineCondition": "EKCH_*_APP, EKCH_*_DEP",
+          "enabled": true
+        },
+        {
+          "text": "",
+          "ordinal": 4,
+          "newLineOnly": true,
           "enabled": true
         },
         {
           "text": "STATE IF REQUESTING DEICING",
-          "ordinal": 3,
+          "ordinal": 5,
           "weatherCondition": "temperature <= 3c",
           "enabled": true
         }
@@ -4742,6 +4784,8 @@
           "becomingVoice": "Becoming.",
           "temporaryText": "TEMPO",
           "temporaryVoice": "TEMPO.",
+          "templateText": "{Trend}",
+          "templateVoice": "{Trend}",
           "template": {}
         },
         "windShear": {
@@ -5161,31 +5205,61 @@
           "enabled": true
         },
         {
-          "text": "5, 5, 5,\r\nALL PARTS 100PERCENT WET",
+          "text": "",
           "ordinal": 2,
+          "newLineOnly": true,
+          "enabled": true
+        },
+        {
+          "text": "5, 5, 5,\r\nALL PARTS 100PERCENT WET",
+          "ordinal": 3,
           "weatherCondition": "weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR weather INCLUDES TSRA",
           "enabled": true
         },
         {
+          "text": "",
+          "ordinal": 4,
+          "newLineOnly": true,
+          "enabled": true
+        },
+        {
           "text": "5, 5, 5,\r\nALL PARTS 100PERCENT 03 MILLIMETERS DRY SNOW",
-          "ordinal": 3,
+          "ordinal": 5,
           "weatherCondition": "weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN",
           "enabled": true
         },
         {
+          "text": "",
+          "ordinal": 6,
+          "newLineOnly": true,
+          "enabled": true
+        },
+        {
           "text": "4, 2, 2, DOWNGRADED.\r\nFIRST PART 100PERCENT 03 MILLIMETERS WET SNOW,\r\nSECOND PART 100PERCENT 04 MILLIMETERS DRY SNOW,\r\nTHIRD PART 100PERCENT 04 MILLIMETERS DRY SNOW",
-          "ordinal": 4,
+          "ordinal": 7,
           "enabled": false
         },
         {
+          "text": "",
+          "ordinal": 8,
+          "newLineOnly": true,
+          "enabled": true
+        },
+        {
           "text": "CHEMICALLY TREATED",
-          "ordinal": 5,
+          "ordinal": 9,
           "weatherCondition": "temperature <= 3c",
           "enabled": true
         },
         {
+          "text": "",
+          "ordinal": 10,
+          "newLineOnly": true,
+          "enabled": true
+        },
+        {
           "text": "LOW VISIBILITY PROCEDURES IN OPERATION",
-          "ordinal": 6,
+          "ordinal": 11,
           "weatherCondition": "visibility <= 3000m OR rvr < 550m",
           "enabled": true
         }
@@ -7328,6 +7402,8 @@
           "becomingVoice": "Becoming.",
           "temporaryText": "TEMPO",
           "temporaryVoice": "TEMPO.",
+          "templateText": "{Trend}",
+          "templateVoice": "{Trend}",
           "template": {}
         },
         "windShear": {
@@ -7758,44 +7834,80 @@
           "enabled": true
         },
         {
-          "text": "5, 5, 5,\r\nALL PARTS 100PERCENT WET",
+          "text": "",
           "ordinal": 2,
+          "newLineOnly": true,
+          "enabled": true
+        },
+        {
+          "text": "5, 5, 5,\r\nALL PARTS 100PERCENT WET",
+          "ordinal": 3,
           "weatherCondition": "weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR weather INCLUDES TSRA",
           "enabled": true
         },
         {
+          "text": "",
+          "ordinal": 4,
+          "newLineOnly": true,
+          "enabled": true
+        },
+        {
           "text": "5, 5, 5,\r\nALL PARTS 100PERCENT 03 MILLIMETERS DRY SNOW",
-          "ordinal": 3,
+          "ordinal": 5,
           "weatherCondition": "weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN",
           "enabled": true
         },
         {
+          "text": "",
+          "ordinal": 6,
+          "newLineOnly": true,
+          "enabled": true
+        },
+        {
           "text": "4, 2, 2, DOWNGRADED.\r\nFIRST PART 100PERCENT 03 MILLIMETERS WET SNOW,\r\nSECOND PART 100PERCENT 04 MILLIMETERS DRY SNOW,\r\nTHIRD PART 100PERCENT 04 MILLIMETERS DRY SNOW",
-          "ordinal": 4,
+          "ordinal": 7,
           "enabled": false
         },
         {
+          "text": "",
+          "ordinal": 8,
+          "newLineOnly": true,
+          "enabled": true
+        },
+        {
           "text": "CHEMICALLY TREATED",
-          "ordinal": 5,
+          "ordinal": 9,
           "weatherCondition": "temperature <= 3c",
           "enabled": true
         },
         {
+          "text": "",
+          "ordinal": 10,
+          "newLineOnly": true,
+          "enabled": true
+        },
+        {
           "text": "LOW VISIBILITY PROCEDURES IN OPERATION",
-          "ordinal": 6,
+          "ordinal": 11,
           "weatherCondition": "visibility <= 3000m OR rvr < 550m",
           "enabled": true
         },
         {
+          "text": "",
+          "ordinal": 12,
+          "newLineOnly": true,
+          "enabled": true
+        },
+        {
           "text": "AT FIRST CONTACT WITH APPROACH, STATE IF REQ CAT 3",
-          "ordinal": 7,
+          "ordinal": 13,
           "weatherCondition": "rvr < 550m or ceiling <= 200ft",
           "enabled": true
         }
       ],
       "notamDefinitions": [
         {
-          "text": "RISK OF TURB BLW 300 FT ON RWY 22L",
+          "text": "RISK TURBULENCE BLW 300 FT ON FINAL RWY 22L",
           "ordinal": 1,
           "enabled": false
         }
