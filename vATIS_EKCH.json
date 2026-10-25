@@ -2,7 +2,7 @@
   "name": "EKCH",
   "id": "7119edbb-55b3-4feb-af26-0b93ec59a470",
   "updateUrl": "https://raw.githubusercontent.com/Vatsim-Scandinavia/EKDK-vATIS/refs/heads/main/vATIS_EKCH.json",
-  "updateSerial": 2026102501,
+  "updateSerial": 2026102502,
   "stations": [
     {
       "id": "ea844f5a-465b-4b4c-8c6b-9334cd537930",
@@ -2626,7 +2626,7 @@
         {
           "text": "DELIVERY FREQ 119.905 ACTIVE",
           "ordinal": 1,
-          "onlineCondition": "EKCH_*_GND OR EKCH_DEL",
+          "onlineCondition": "EKCH*_GND OR EKCH_DEL",
           "enabled": true
         },
         {
@@ -2638,7 +2638,7 @@
         {
           "text": "AFTER PASSING 1000FT, CONTACT KASTRUP\r\nDEPARTURE USING FREQ STATED ON CHARTS,\r\nUNLESS OTHERWISE INSTRUCTED",
           "ordinal": 3,
-          "onlineCondition": "EKCH_*_APP, EKCH_*_DEP",
+          "onlineCondition": "EKCH*_APP, EKCH*_DEP",
           "enabled": true
         },
         {

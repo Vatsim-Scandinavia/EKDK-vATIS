@@ -2,7 +2,7 @@
   "name": "EKDK",
   "id": "b88713b8-59ea-40cc-8e3d-1bd6e942b6c5",
   "updateUrl": "https://raw.githubusercontent.com/Vatsim-Scandinavia/EKDK-vATIS/refs/heads/main/vATIS_EKDK.json",
-  "updateSerial": 2026102501,
+  "updateSerial": 2026102502,
   "stations": [
     {
       "id": "d97dd234-2106-4a40-b78d-7e6cc812231b",
@@ -5090,7 +5090,7 @@
         {
           "text": "AFTER PASSING 1000FT, CONTACT AALBORG\r\nAPPROACH USING FREQ STATED ON CHARTS,\r\nUNLESS OTHERWISE INSTRUCTED",
           "ordinal": 1,
-          "onlineCondition": "EKYT_APP",
+          "onlineCondition": "EKYT*_APP",
           "enabled": true
         },
         {
@@ -10206,7 +10206,7 @@
         {
           "text": "AFTER PASSING 1500FT, CONTACT BILLUND\r\nAPPROACH USING FREQ STATED ON CHARTS,\r\nUNLESS OTHERWISE INSTRUCTED",
           "ordinal": 1,
-          "onlineCondition": "EKBI_APP",
+          "onlineCondition": "EKBI*_APP",
           "enabled": true
         },
         {
@@ -15500,7 +15500,7 @@
         {
           "text": "DELIVERY FREQ 119.905 ACTIVE",
           "ordinal": 1,
-          "onlineCondition": "EKCH_*_GND OR EKCH_DEL",
+          "onlineCondition": "EKCH*_GND OR EKCH_DEL",
           "enabled": true
         },
         {
@@ -15512,7 +15512,7 @@
         {
           "text": "AFTER PASSING 1000FT, CONTACT KASTRUP\r\nDEPARTURE USING FREQ STATED ON CHARTS,\r\nUNLESS OTHERWISE INSTRUCTED",
           "ordinal": 3,
-          "onlineCondition": "EKCH_*_APP, EKCH_*_DEP",
+          "onlineCondition": "EKCH*_APP, EKCH*_DEP",
           "enabled": true
         },
         {
