@@ -2,7 +2,7 @@
   "name": "EKCH",
   "id": "7119edbb-55b3-4feb-af26-0b93ec59a470",
   "updateUrl": "https://raw.githubusercontent.com/Vatsim-Scandinavia/EKDK-vATIS/refs/heads/main/vATIS_EKCH.json",
-  "updateSerial": 2026110201,
+  "updateSerial": 2026110202,
   "stations": [
     {
       "id": "ea844f5a-465b-4b4c-8c6b-9334cd537930",
@@ -2557,36 +2557,36 @@
       "patterns": [],
       "airportConditionDefinitions": [
         {
-          "text": "6, 6, 6,\r\nALL PARTS 100PERCENT DRY",
+          "text": "6, 6, 6,\r\nALL PARTS 100PERCENT DRY PAUSE",
           "ordinal": 1,
           "weatherCondition": "weather EXCLUDES SHRA AND weather EXCLUDES RA AND weather EXCLUDES DZ AND weather EXCLUDES TSRA AND weather EXCLUDES SN AND weather EXCLUDES SHSN AND weather EXCLUDES BLSN",
           "enabled": true
         },
         {
-          "text": "5, 5, 5,\r\nALL PARTS 100PERCENT WET",
+          "text": "5, 5, 5,\r\nALL PARTS 100PERCENT WET PAUSE",
           "ordinal": 2,
           "weatherCondition": "weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR weather INCLUDES TSRA",
           "enabled": true
         },
         {
-          "text": "5, 5, 5,\r\nALL PARTS 100PERCENT 03 MILLIMETERS DRY SNOW",
+          "text": "5, 5, 5,\r\nALL PARTS 100PERCENT 03 MILLIMETERS DRY SNOW PAUSE",
           "ordinal": 3,
           "weatherCondition": "weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN",
           "enabled": true
         },
         {
-          "text": "4, 2, 2, DOWNGRADED.\r\nFIRST PART 100PERCENT 03 MILLIMETERS WET SNOW,\r\nSECOND PART 100PERCENT 04 MILLIMETERS DRY SNOW,\r\nTHIRD PART 100PERCENT 04 MILLIMETERS DRY SNOW",
+          "text": "4, 2, 2, DOWNGRADED.\r\nFIRST PART 100PERCENT 03 MILLIMETERS WET SNOW,\r\nSECOND PART 100PERCENT 04 MILLIMETERS DRY SNOW,\r\nTHIRD PART 100PERCENT 04 MILLIMETERS DRY SNOW PAUSE",
           "ordinal": 4,
           "enabled": false
         },
         {
-          "text": "CHEMICALLY TREATED",
+          "text": "CHEMICALLY TREATED PAUSE",
           "ordinal": 5,
           "weatherCondition": "temperature <= 3c",
           "enabled": true
         },
         {
-          "text": "LOW VISIBILITY PROCEDURES IN OPERATION",
+          "text": "LOW VISIBILITY PROCEDURES IN OPERATION PAUSE",
           "ordinal": 6,
           "weatherCondition": "visibility <= 1000m OR rvr <= 1000m OR ceiling <= 300ft",
           "enabled": true
@@ -2594,19 +2594,19 @@
       ],
       "notamDefinitions": [
         {
-          "text": "DELIVERY FREQ 119.905 ACTIVE",
+          "text": "DELIVERY FREQ 119.905 ACTIVE PAUSE",
           "ordinal": 1,
           "onlineCondition": "EKCH*_GND OR EKCH_DEL",
           "enabled": true
         },
         {
-          "text": "AFTER PASSING 1000FT, CONTACT KASTRUP\r\nDEPARTURE USING FREQ STATED ON CHARTS,\r\nUNLESS OTHERWISE INSTRUCTED",
+          "text": "AFTER PASSING 1000FT, CONTACT KASTRUP\r\nDEPARTURE USING FREQ STATED ON CHARTS,\r\nUNLESS OTHERWISE INSTRUCTED PAUSE",
           "ordinal": 2,
           "onlineCondition": "EKCH*_APP OR EKCH*_DEP",
           "enabled": true
         },
         {
-          "text": "STATE IF REQUESTING DEICING",
+          "text": "STATE IF REQUESTING DEICING PAUSE",
           "ordinal": 3,
           "weatherCondition": "temperature <= 3c",
           "enabled": true
@@ -5157,36 +5157,36 @@
       "patterns": [],
       "airportConditionDefinitions": [
         {
-          "text": "6, 6, 6,\r\nALL PARTS 100PERCENT DRY",
+          "text": "6, 6, 6,\r\nALL PARTS 100PERCENT DRY PAUSE",
           "ordinal": 1,
           "weatherCondition": "weather EXCLUDES SHRA AND weather EXCLUDES RA AND weather EXCLUDES DZ AND weather EXCLUDES TSRA AND weather EXCLUDES SN AND weather EXCLUDES SHSN AND weather EXCLUDES BLSN",
           "enabled": true
         },
         {
-          "text": "5, 5, 5,\r\nALL PARTS 100PERCENT WET",
+          "text": "5, 5, 5,\r\nALL PARTS 100PERCENT WET PAUSE",
           "ordinal": 2,
           "weatherCondition": "weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR weather INCLUDES TSRA",
           "enabled": true
         },
         {
-          "text": "5, 5, 5,\r\nALL PARTS 100PERCENT 03 MILLIMETERS DRY SNOW",
+          "text": "5, 5, 5,\r\nALL PARTS 100PERCENT 03 MILLIMETERS DRY SNOW PAUSE",
           "ordinal": 3,
           "weatherCondition": "weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN",
           "enabled": true
         },
         {
-          "text": "4, 2, 2, DOWNGRADED.\r\nFIRST PART 100PERCENT 03 MILLIMETERS WET SNOW,\r\nSECOND PART 100PERCENT 04 MILLIMETERS DRY SNOW,\r\nTHIRD PART 100PERCENT 04 MILLIMETERS DRY SNOW",
+          "text": "4, 2, 2, DOWNGRADED.\r\nFIRST PART 100PERCENT 03 MILLIMETERS WET SNOW,\r\nSECOND PART 100PERCENT 04 MILLIMETERS DRY SNOW,\r\nTHIRD PART 100PERCENT 04 MILLIMETERS DRY SNOW PAUSE",
           "ordinal": 4,
           "enabled": false
         },
         {
-          "text": "CHEMICALLY TREATED",
+          "text": "CHEMICALLY TREATED PAUSE",
           "ordinal": 5,
           "weatherCondition": "temperature <= 3c",
           "enabled": true
         },
         {
-          "text": "LOW VISIBILITY PROCEDURES IN OPERATION",
+          "text": "LOW VISIBILITY PROCEDURES IN OPERATION PAUSE",
           "ordinal": 6,
           "weatherCondition": "visibility <= 1000m OR rvr <= 1000m OR ceiling <= 300ft",
           "enabled": true
@@ -5194,7 +5194,7 @@
       ],
       "notamDefinitions": [
         {
-          "text": "ON FIRST CONTACT, STATE IF REQUESTING DEICING",
+          "text": "ON FIRST CONTACT, STATE IF REQUESTING DEICING PAUSE",
           "ordinal": 1,
           "weatherCondition": "temperature <= 3c",
           "enabled": true
@@ -7756,48 +7756,48 @@
       "patterns": [],
       "airportConditionDefinitions": [
         {
-          "text": "6, 6, 6,\r\nALL PARTS 100PERCENT DRY",
+          "text": "6, 6, 6,\r\nALL PARTS 100PERCENT DRY PAUSE",
           "ordinal": 1,
           "weatherCondition": "weather EXCLUDES SHRA AND weather EXCLUDES RA AND weather EXCLUDES DZ AND weather EXCLUDES TSRA AND weather EXCLUDES SN AND weather EXCLUDES SHSN AND weather EXCLUDES BLSN",
           "enabled": true
         },
         {
-          "text": "5, 5, 5,\r\nALL PARTS 100PERCENT WET",
+          "text": "5, 5, 5,\r\nALL PARTS 100PERCENT WET PAUSE",
           "ordinal": 2,
           "weatherCondition": "weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR weather INCLUDES TSRA",
           "enabled": true
         },
         {
-          "text": "5, 5, 5,\r\nALL PARTS 100PERCENT 03 MILLIMETERS DRY SNOW",
+          "text": "5, 5, 5,\r\nALL PARTS 100PERCENT 03 MILLIMETERS DRY SNOW PAUSE",
           "ordinal": 3,
           "weatherCondition": "weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN",
           "enabled": true
         },
         {
-          "text": "4, 2, 2, DOWNGRADED.\r\nFIRST PART 100PERCENT 03 MILLIMETERS WET SNOW,\r\nSECOND PART 100PERCENT 04 MILLIMETERS DRY SNOW,\r\nTHIRD PART 100PERCENT 04 MILLIMETERS DRY SNOW",
+          "text": "4, 2, 2, DOWNGRADED.\r\nFIRST PART 100PERCENT 03 MILLIMETERS WET SNOW,\r\nSECOND PART 100PERCENT 04 MILLIMETERS DRY SNOW,\r\nTHIRD PART 100PERCENT 04 MILLIMETERS DRY SNOW PAUSE",
           "ordinal": 4,
           "enabled": false
         },
         {
-          "text": "CHEMICALLY TREATED",
+          "text": "CHEMICALLY TREATED PAUSE",
           "ordinal": 5,
           "weatherCondition": "temperature <= 3c",
           "enabled": true
         },
         {
-          "text": "LOW VISIBILITY PROCEDURES IN OPERATION",
+          "text": "LOW VISIBILITY PROCEDURES IN OPERATION PAUSE",
           "ordinal": 6,
           "weatherCondition": "visibility <= 1000m OR rvr <= 1000m OR ceiling <= 300ft",
           "enabled": true
         },
         {
-          "text": "AT FIRST CONTACT WITH APPROACH, STATE IF REQ CAT 2",
+          "text": "AT FIRST CONTACT WITH APPROACH, STATE IF REQ CAT 2 PAUSE",
           "ordinal": 7,
           "weatherCondition": "(rvr <= 1000m AND rvr > 400m) OR (ceiling <= 300ft AND ceiling > 200ft)",
           "enabled": true
         },
         {
-          "text": "AT FIRST CONTACT WITH APPROACH, STATE IF REQ CAT 3",
+          "text": "AT FIRST CONTACT WITH APPROACH, STATE IF REQ CAT 3 PAUSE",
           "ordinal": 8,
           "weatherCondition": "rvr <= 400m OR ceiling <= 200ft",
           "enabled": true
