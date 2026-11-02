@@ -2,7 +2,7 @@
   "name": "EKDK",
   "id": "b88713b8-59ea-40cc-8e3d-1bd6e942b6c5",
   "updateUrl": "https://raw.githubusercontent.com/Vatsim-Scandinavia/EKDK-vATIS/refs/heads/main/vATIS_EKDK.json",
-  "updateSerial": 2026102504,
+  "updateSerial": 2026110201,
   "stations": [
     {
       "id": "d97dd234-2106-4a40-b78d-7e6cc812231b",
@@ -2498,7 +2498,7 @@
         {
           "text": "LOW VISIBILITY PROCEDURES",
           "ordinal": 6,
-          "weatherCondition": "visibility <= 3000m OR rvr < 550m",
+          "weatherCondition": "visibility <= 1000m OR rvr <= 1000m OR ceiling <= 300ft",
           "enabled": true
         }
       ],
@@ -5022,7 +5022,7 @@
         {
           "text": "LOW VISIBILITY PROCEDURES",
           "ordinal": 6,
-          "weatherCondition": "visibility <= 3000m OR rvr < 550m",
+          "weatherCondition": "visibility <= 1000m OR rvr <= 1000m OR ceiling <= 300ft",
           "enabled": true
         }
       ],
@@ -7552,7 +7552,7 @@
         {
           "text": "LOW VISIBILITY PROCEDURES",
           "ordinal": 6,
-          "weatherCondition": "visibility <= 3000m OR rvr < 550m",
+          "weatherCondition": "visibility <= 1000m OR rvr <= 1000m OR ceiling <= 300ft",
           "enabled": true
         }
       ],
@@ -10072,7 +10072,7 @@
         {
           "text": "LOW VISIBILITY PROCEDURES",
           "ordinal": 6,
-          "weatherCondition": "visibility <= 3000m OR rvr < 550m",
+          "weatherCondition": "visibility <= 1000m OR rvr <= 1000m OR ceiling <= 300ft",
           "enabled": true
         }
       ],
@@ -12682,13 +12682,19 @@
         {
           "text": "LOW VISIBILITY PROCEDURES IN OPERATION",
           "ordinal": 6,
-          "weatherCondition": "visibility <= 3000m OR rvr < 550m",
+          "weatherCondition": "visibility <= 1000m OR rvr <= 1000m OR ceiling <= 300ft",
+          "enabled": true
+        },
+        {
+          "text": "AT FIRST CONTACT WITH APPROACH, STATE IF REQ CAT 2",
+          "ordinal": 7,
+          "weatherCondition": "(rvr <= 1000m AND rvr > 400m) OR (ceiling <= 300ft AND ceiling > 200ft)",
           "enabled": true
         },
         {
           "text": "AT FIRST CONTACT WITH APPROACH, STATE IF REQ CAT 3",
-          "ordinal": 7,
-          "weatherCondition": "rvr < 550m or ceiling <= 200ft",
+          "ordinal": 8,
+          "weatherCondition": "rvr <= 400m OR ceiling <= 200ft",
           "enabled": true
         }
       ],
@@ -15294,7 +15300,7 @@
         {
           "text": "LOW VISIBILITY PROCEDURES IN OPERATION",
           "ordinal": 6,
-          "weatherCondition": "visibility <= 3000m OR rvr < 550m",
+          "weatherCondition": "visibility <= 1000m OR rvr <= 1000m OR ceiling <= 300ft",
           "enabled": true
         }
       ],
@@ -17900,7 +17906,7 @@
         {
           "text": "LOW VISIBILITY PROCEDURES IN OPERATION",
           "ordinal": 6,
-          "weatherCondition": "visibility <= 3000m OR rvr < 550m",
+          "weatherCondition": "visibility <= 1000m OR rvr <= 1000m OR ceiling <= 300ft",
           "enabled": true
         }
       ],
@@ -20417,7 +20423,7 @@
         {
           "text": "LOW VISIBILITY PROCEDURES",
           "ordinal": 6,
-          "weatherCondition": "visibility <= 3000m OR rvr < 550m",
+          "weatherCondition": "visibility <= 1000m OR rvr <= 1000m OR ceiling <= 300ft",
           "enabled": true
         }
       ],
@@ -22909,7 +22915,7 @@
         {
           "text": "LOW VISIBILITY PROCEDURES",
           "ordinal": 6,
-          "weatherCondition": "visibility <= 3000m OR rvr < 550m",
+          "weatherCondition": "visibility <= 1000m OR rvr <= 1000m OR ceiling <= 300ft",
           "enabled": true
         }
       ],

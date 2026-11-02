@@ -2,7 +2,7 @@
   "name": "EKCH",
   "id": "7119edbb-55b3-4feb-af26-0b93ec59a470",
   "updateUrl": "https://raw.githubusercontent.com/Vatsim-Scandinavia/EKDK-vATIS/refs/heads/main/vATIS_EKCH.json",
-  "updateSerial": 2026102504,
+  "updateSerial": 2026110201,
   "stations": [
     {
       "id": "ea844f5a-465b-4b4c-8c6b-9334cd537930",
@@ -2588,7 +2588,7 @@
         {
           "text": "LOW VISIBILITY PROCEDURES IN OPERATION",
           "ordinal": 6,
-          "weatherCondition": "visibility <= 3000m OR rvr < 550m",
+          "weatherCondition": "visibility <= 1000m OR rvr <= 1000m OR ceiling <= 300ft",
           "enabled": true
         }
       ],
@@ -5188,7 +5188,7 @@
         {
           "text": "LOW VISIBILITY PROCEDURES IN OPERATION",
           "ordinal": 6,
-          "weatherCondition": "visibility <= 3000m OR rvr < 550m",
+          "weatherCondition": "visibility <= 1000m OR rvr <= 1000m OR ceiling <= 300ft",
           "enabled": true
         }
       ],
@@ -7787,13 +7787,19 @@
         {
           "text": "LOW VISIBILITY PROCEDURES IN OPERATION",
           "ordinal": 6,
-          "weatherCondition": "visibility <= 3000m OR rvr < 550m",
+          "weatherCondition": "visibility <= 1000m OR rvr <= 1000m OR ceiling <= 300ft",
+          "enabled": true
+        },
+        {
+          "text": "AT FIRST CONTACT WITH APPROACH, STATE IF REQ CAT 2",
+          "ordinal": 7,
+          "weatherCondition": "(rvr <= 1000m AND rvr > 400m) OR (ceiling <= 300ft AND ceiling > 200ft)",
           "enabled": true
         },
         {
           "text": "AT FIRST CONTACT WITH APPROACH, STATE IF REQ CAT 3",
-          "ordinal": 7,
-          "weatherCondition": "rvr < 550m or ceiling <= 200ft",
+          "ordinal": 8,
+          "weatherCondition": "rvr <= 400m OR ceiling <= 200ft",
           "enabled": true
         }
       ],
