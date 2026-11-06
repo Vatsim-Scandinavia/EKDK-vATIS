@@ -2,7 +2,7 @@
   "name": "EKDK",
   "id": "b88713b8-59ea-40cc-8e3d-1bd6e942b6c5",
   "updateUrl": "https://raw.githubusercontent.com/Vatsim-Scandinavia/EKDK-vATIS/refs/heads/main/vATIS_EKDK.json",
-  "updateSerial": 2026110202,
+  "updateSerial": 2026110601,
   "stations": [
     {
       "id": "d97dd234-2106-4a40-b78d-7e6cc812231b",
@@ -141,14 +141,25 @@
             "W": "W",
             "NW": "NW"
           },
-          "unlimitedVisibilityVoice": "visibility ten kilometers",
-          "unlimitedVisibilityText": "VIS 10KM",
+          "formatRules": [
+            {
+              "fromMeters": 0,
+              "text": "{raw}",
+              "voice": "{m} meters"
+            },
+            {
+              "fromMeters": 4996,
+              "text": "{raw}",
+              "voice": "{km} kilometers"
+            },
+            {
+              "fromMeters": 9999,
+              "text": "10K",
+              "voice": "ten kilometers"
+            }
+          ],
           "cavokVoice": "CAVOK",
           "cavokText": "CAVOK",
-          "includeVisibilitySuffix": true,
-          "metersCutoff": 4995,
-          "metersUnitVoice": "meters",
-          "kilometersUnitVoice": "kilometers",
           "fractionVoice": {
             "M1/4SM": "less than one quarter.",
             "1 1/8SM": "one and one eighth.",
@@ -2469,19 +2480,19 @@
         {
           "text": "6, 6, 6,\r\nALL PARTS 100PERCENT DRY PAUSE",
           "ordinal": 1,
-          "weatherCondition": "weather EXCLUDES SHRA AND weather EXCLUDES RA AND weather EXCLUDES DZ AND weather EXCLUDES TSRA AND weather EXCLUDES SN AND weather EXCLUDES SHSN AND weather EXCLUDES BLSN",
+          "weatherCondition": "weather EXCLUDES SHRA AND weather EXCLUDES RA AND weather EXCLUDES DZ AND weather EXCLUDES FZDZ AND weather EXCLUDES FZRA AND weather EXCLUDES TSRA AND weather EXCLUDES SN AND weather EXCLUDES SHSN AND weather EXCLUDES BLSN and recentweather EXCLUDES TSRA and recentweather EXCLUDES RA and recentweather EXCLUDES SHRA and recentweather EXCLUDES FZRA and recentweather EXCLUDES DZ and recentweather EXCLUDES FZDZ and recentweather EXCLUDES SN and recentweather EXCLUDES SHSN and recentweather EXCLUDES BLSN and tempoweather EXCLUDES TSRA and tempoweather EXCLUDES RA and tempoweather EXCLUDES SHRA and tempoweather EXCLUDES FZRA and tempoweather EXCLUDES DZ and tempoweather EXCLUDES FZDZ and tempoweather EXCLUDES SN and tempoweather EXCLUDES SHSN and tempoweather EXCLUDES BLSN",
           "enabled": true
         },
         {
           "text": "5, 5, 5,\r\nALL PARTS 100PERCENT WET PAUSE",
           "ordinal": 2,
-          "weatherCondition": "weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR weather INCLUDES TSRA",
+          "weatherCondition": "weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR weather INCLUDES TSRA or recentweather INCLUDES TSRA or recentweather INCLUDES RA or recentweather INCLUDES SHRA or recentweather INCLUDES DZ or tempoweather INCLUDES TSRA or tempoweather INCLUDES RA or tempoweather INCLUDES SHRA or tempoweather INCLUDES DZ",
           "enabled": true
         },
         {
           "text": "5, 5, 5,\r\nALL PARTS 100PERCENT 03 MILLIMETERS DRY SNOW PAUSE",
           "ordinal": 3,
-          "weatherCondition": "weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN",
+          "weatherCondition": "weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN or recentweather INCLUDES SN OR recentweather INCLUDES SHSN OR recentweather INCLUDES BLSN OR tempoweather INCLUDES SN OR tempoweather INCLUDES SHSN OR tempoweather INCLUDES BLSN",
           "enabled": true
         },
         {
@@ -2653,14 +2664,25 @@
             "W": "W",
             "NW": "NW"
           },
-          "unlimitedVisibilityVoice": "visibility one zero kilometers",
-          "unlimitedVisibilityText": "VIS 10KM",
+          "formatRules": [
+            {
+              "fromMeters": 0,
+              "text": "{raw}",
+              "voice": "{m} meters"
+            },
+            {
+              "fromMeters": 4996,
+              "text": "{raw}",
+              "voice": "{km} kilometers"
+            },
+            {
+              "fromMeters": 9999,
+              "text": "10K",
+              "voice": "one zero kilometers"
+            }
+          ],
           "cavokVoice": "CAVOK",
           "cavokText": "CAVOK",
-          "includeVisibilitySuffix": true,
-          "metersCutoff": 4995,
-          "metersUnitVoice": "meters",
-          "kilometersUnitVoice": "kilometers",
           "fractionVoice": {
             "M1/4SM": "less than one quarter.",
             "1 1/8SM": "one and one eighth.",
@@ -4993,19 +5015,19 @@
         {
           "text": "6, 6, 6,\r\nALL PARTS PAUSE DRY PAUSE",
           "ordinal": 1,
-          "weatherCondition": "weather EXCLUDES SHRA AND weather EXCLUDES RA AND weather EXCLUDES DZ AND weather EXCLUDES TSRA AND weather EXCLUDES SN AND weather EXCLUDES SHSN AND weather EXCLUDES BLSN",
+          "weatherCondition": "weather EXCLUDES SHRA AND weather EXCLUDES RA AND weather EXCLUDES DZ AND weather EXCLUDES FZDZ AND weather EXCLUDES FZRA AND weather EXCLUDES TSRA AND weather EXCLUDES SN AND weather EXCLUDES SHSN AND weather EXCLUDES BLSN and recentweather EXCLUDES TSRA and recentweather EXCLUDES RA and recentweather EXCLUDES SHRA and recentweather EXCLUDES FZRA and recentweather EXCLUDES DZ and recentweather EXCLUDES FZDZ and recentweather EXCLUDES SN and recentweather EXCLUDES SHSN and recentweather EXCLUDES BLSN and tempoweather EXCLUDES TSRA and tempoweather EXCLUDES RA and tempoweather EXCLUDES SHRA and tempoweather EXCLUDES FZRA and tempoweather EXCLUDES DZ and tempoweather EXCLUDES FZDZ and tempoweather EXCLUDES SN and tempoweather EXCLUDES SHSN and tempoweather EXCLUDES BLSN",
           "enabled": true
         },
         {
           "text": "5, 5, 5,\r\nALL PARTS PAUSE WET PAUSE",
           "ordinal": 2,
-          "weatherCondition": "weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR weather INCLUDES TSRA",
+          "weatherCondition": "weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR weather INCLUDES TSRA or recentweather INCLUDES TSRA or recentweather INCLUDES RA or recentweather INCLUDES SHRA or recentweather INCLUDES DZ or tempoweather INCLUDES TSRA or tempoweather INCLUDES RA or tempoweather INCLUDES SHRA or tempoweather INCLUDES DZ",
           "enabled": true
         },
         {
           "text": "5, 5, 5,\r\nALL PARTS 100PERCENT 03 MILLIMETERS DRY SNOW PAUSE",
           "ordinal": 3,
-          "weatherCondition": "weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN",
+          "weatherCondition": "weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN or recentweather INCLUDES SN OR recentweather INCLUDES SHSN OR recentweather INCLUDES BLSN OR tempoweather INCLUDES SN OR tempoweather INCLUDES SHSN OR tempoweather INCLUDES BLSN",
           "enabled": true
         },
         {
@@ -5183,14 +5205,25 @@
             "W": "W",
             "NW": "NW"
           },
-          "unlimitedVisibilityVoice": "visibility ten kilometers",
-          "unlimitedVisibilityText": "VIS 10KM",
+          "formatRules": [
+            {
+              "fromMeters": 0,
+              "text": "{raw}",
+              "voice": "{m} meters"
+            },
+            {
+              "fromMeters": 4996,
+              "text": "{raw}",
+              "voice": "{km} kilometers"
+            },
+            {
+              "fromMeters": 9999,
+              "text": "10K",
+              "voice": "ten kilometers"
+            }
+          ],
           "cavokVoice": "CAVOK",
           "cavokText": "CAVOK",
-          "includeVisibilitySuffix": true,
-          "metersCutoff": 4995,
-          "metersUnitVoice": "meters",
-          "kilometersUnitVoice": "kilometers",
           "fractionVoice": {
             "M1/4SM": "less than one quarter.",
             "1 1/8SM": "one and one eighth.",
@@ -7523,19 +7556,19 @@
         {
           "text": "6, 6, 6,\r\nALL PARTS 100PERCENT DRY PAUSE",
           "ordinal": 1,
-          "weatherCondition": "weather EXCLUDES SHRA AND weather EXCLUDES RA AND weather EXCLUDES DZ AND weather EXCLUDES TSRA AND weather EXCLUDES SN AND weather EXCLUDES SHSN AND weather EXCLUDES BLSN",
+          "weatherCondition": "weather EXCLUDES SHRA AND weather EXCLUDES RA AND weather EXCLUDES DZ AND weather EXCLUDES FZDZ AND weather EXCLUDES FZRA AND weather EXCLUDES TSRA AND weather EXCLUDES SN AND weather EXCLUDES SHSN AND weather EXCLUDES BLSN and recentweather EXCLUDES TSRA and recentweather EXCLUDES RA and recentweather EXCLUDES SHRA and recentweather EXCLUDES FZRA and recentweather EXCLUDES DZ and recentweather EXCLUDES FZDZ and recentweather EXCLUDES SN and recentweather EXCLUDES SHSN and recentweather EXCLUDES BLSN and tempoweather EXCLUDES TSRA and tempoweather EXCLUDES RA and tempoweather EXCLUDES SHRA and tempoweather EXCLUDES FZRA and tempoweather EXCLUDES DZ and tempoweather EXCLUDES FZDZ and tempoweather EXCLUDES SN and tempoweather EXCLUDES SHSN and tempoweather EXCLUDES BLSN",
           "enabled": true
         },
         {
           "text": "5, 5, 5,\r\nALL PARTS 100PERCENT WET PAUSE",
           "ordinal": 2,
-          "weatherCondition": "weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR weather INCLUDES TSRA",
+          "weatherCondition": "weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR weather INCLUDES TSRA or recentweather INCLUDES TSRA or recentweather INCLUDES RA or recentweather INCLUDES SHRA or recentweather INCLUDES DZ or tempoweather INCLUDES TSRA or tempoweather INCLUDES RA or tempoweather INCLUDES SHRA or tempoweather INCLUDES DZ",
           "enabled": true
         },
         {
           "text": "5, 5, 5,\r\nALL PARTS 100PERCENT 03 MILLIMETERS DRY SNOW PAUSE",
           "ordinal": 3,
-          "weatherCondition": "weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN",
+          "weatherCondition": "weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN or recentweather INCLUDES SN OR recentweather INCLUDES SHSN OR recentweather INCLUDES BLSN OR tempoweather INCLUDES SN OR tempoweather INCLUDES SHSN OR tempoweather INCLUDES BLSN",
           "enabled": true
         },
         {
@@ -7700,14 +7733,25 @@
             "W": "W",
             "NW": "NW"
           },
-          "unlimitedVisibilityVoice": "visibility ten kilometers",
-          "unlimitedVisibilityText": "VIS 10KM",
+          "formatRules": [
+            {
+              "fromMeters": 0,
+              "text": "{raw}",
+              "voice": "{m} meters"
+            },
+            {
+              "fromMeters": 4996,
+              "text": "{raw}",
+              "voice": "{km} kilometers"
+            },
+            {
+              "fromMeters": 9999,
+              "text": "10K",
+              "voice": "ten kilometers"
+            }
+          ],
           "cavokVoice": "CAVOK",
           "cavokText": "CAVOK",
-          "includeVisibilitySuffix": true,
-          "metersCutoff": 4995,
-          "metersUnitVoice": "meters",
-          "kilometersUnitVoice": "kilometers",
           "fractionVoice": {
             "M1/4SM": "less than one quarter.",
             "1 1/8SM": "one and one eighth.",
@@ -10043,19 +10087,19 @@
         {
           "text": "6, 6, 6,\r\nALL PARTS 100PERCENT DRY PAUSE",
           "ordinal": 1,
-          "weatherCondition": "weather EXCLUDES SHRA AND weather EXCLUDES RA AND weather EXCLUDES DZ AND weather EXCLUDES TSRA AND weather EXCLUDES SN AND weather EXCLUDES SHSN AND weather EXCLUDES BLSN",
+          "weatherCondition": "weather EXCLUDES SHRA AND weather EXCLUDES RA AND weather EXCLUDES DZ AND weather EXCLUDES FZDZ AND weather EXCLUDES FZRA AND weather EXCLUDES TSRA AND weather EXCLUDES SN AND weather EXCLUDES SHSN AND weather EXCLUDES BLSN and recentweather EXCLUDES TSRA and recentweather EXCLUDES RA and recentweather EXCLUDES SHRA and recentweather EXCLUDES FZRA and recentweather EXCLUDES DZ and recentweather EXCLUDES FZDZ and recentweather EXCLUDES SN and recentweather EXCLUDES SHSN and recentweather EXCLUDES BLSN and tempoweather EXCLUDES TSRA and tempoweather EXCLUDES RA and tempoweather EXCLUDES SHRA and tempoweather EXCLUDES FZRA and tempoweather EXCLUDES DZ and tempoweather EXCLUDES FZDZ and tempoweather EXCLUDES SN and tempoweather EXCLUDES SHSN and tempoweather EXCLUDES BLSN",
           "enabled": true
         },
         {
           "text": "5, 5, 5,\r\nALL PARTS 100PERCENT WET PAUSE",
           "ordinal": 2,
-          "weatherCondition": "weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR weather INCLUDES TSRA",
+          "weatherCondition": "weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR weather INCLUDES TSRA or recentweather INCLUDES TSRA or recentweather INCLUDES RA or recentweather INCLUDES SHRA or recentweather INCLUDES DZ or tempoweather INCLUDES TSRA or tempoweather INCLUDES RA or tempoweather INCLUDES SHRA or tempoweather INCLUDES DZ",
           "enabled": true
         },
         {
           "text": "5, 5, 5,\r\nALL PARTS 100PERCENT 03 MILLIMETERS DRY SNOW PAUSE",
           "ordinal": 3,
-          "weatherCondition": "weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN",
+          "weatherCondition": "weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN or recentweather INCLUDES SN OR recentweather INCLUDES SHSN OR recentweather INCLUDES BLSN OR tempoweather INCLUDES SN OR tempoweather INCLUDES SHSN OR tempoweather INCLUDES BLSN",
           "enabled": true
         },
         {
@@ -10233,14 +10277,25 @@
             "W": "W",
             "NW": "NW"
           },
-          "unlimitedVisibilityVoice": "visibility 10 kilometers",
-          "unlimitedVisibilityText": "VIS 10KM",
+          "formatRules": [
+            {
+              "fromMeters": 0,
+              "text": "{raw}",
+              "voice": "{m} meters"
+            },
+            {
+              "fromMeters": 4996,
+              "text": "{raw}",
+              "voice": "{km} kilometers"
+            },
+            {
+              "fromMeters": 9999,
+              "text": "10K",
+              "voice": "10 kilometers"
+            }
+          ],
           "cavokVoice": "CAVOK",
           "cavokText": "CAVOK",
-          "includeVisibilitySuffix": true,
-          "metersCutoff": 4995,
-          "metersUnitVoice": "meters",
-          "kilometersUnitVoice": "kilometers",
           "fractionVoice": {
             "M1/4SM": "less than one quarter.",
             "1 1/8SM": "one and one eighth.",
@@ -12653,19 +12708,19 @@
         {
           "text": "6, 6, 6,\r\nALL PARTS 100PERCENT DRY PAUSE",
           "ordinal": 1,
-          "weatherCondition": "weather EXCLUDES SHRA AND weather EXCLUDES RA AND weather EXCLUDES DZ AND weather EXCLUDES TSRA AND weather EXCLUDES SN AND weather EXCLUDES SHSN AND weather EXCLUDES BLSN",
+          "weatherCondition": "weather EXCLUDES SHRA AND weather EXCLUDES RA AND weather EXCLUDES DZ AND weather EXCLUDES FZDZ AND weather EXCLUDES FZRA AND weather EXCLUDES TSRA AND weather EXCLUDES SN AND weather EXCLUDES SHSN AND weather EXCLUDES BLSN and recentweather EXCLUDES TSRA and recentweather EXCLUDES RA and recentweather EXCLUDES SHRA and recentweather EXCLUDES FZRA and recentweather EXCLUDES DZ and recentweather EXCLUDES FZDZ and recentweather EXCLUDES SN and recentweather EXCLUDES SHSN and recentweather EXCLUDES BLSN and tempoweather EXCLUDES TSRA and tempoweather EXCLUDES RA and tempoweather EXCLUDES SHRA and tempoweather EXCLUDES FZRA and tempoweather EXCLUDES DZ and tempoweather EXCLUDES FZDZ and tempoweather EXCLUDES SN and tempoweather EXCLUDES SHSN and tempoweather EXCLUDES BLSN",
           "enabled": true
         },
         {
           "text": "5, 5, 5,\r\nALL PARTS 100PERCENT WET PAUSE",
           "ordinal": 2,
-          "weatherCondition": "weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR weather INCLUDES TSRA",
+          "weatherCondition": "weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR weather INCLUDES TSRA or recentweather INCLUDES TSRA or recentweather INCLUDES RA or recentweather INCLUDES SHRA or recentweather INCLUDES DZ or tempoweather INCLUDES TSRA or tempoweather INCLUDES RA or tempoweather INCLUDES SHRA or tempoweather INCLUDES DZ",
           "enabled": true
         },
         {
           "text": "5, 5, 5,\r\nALL PARTS 100PERCENT 03 MILLIMETERS DRY SNOW PAUSE",
           "ordinal": 3,
-          "weatherCondition": "weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN",
+          "weatherCondition": "weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN or recentweather INCLUDES SN OR recentweather INCLUDES SHSN OR recentweather INCLUDES BLSN OR tempoweather INCLUDES SN OR tempoweather INCLUDES SHSN OR tempoweather INCLUDES BLSN",
           "enabled": true
         },
         {
@@ -12848,14 +12903,25 @@
             "W": "W",
             "NW": "NW"
           },
-          "unlimitedVisibilityVoice": "visibility 10 kilometers",
-          "unlimitedVisibilityText": "VIS 10KM",
+          "formatRules": [
+            {
+              "fromMeters": 0,
+              "text": "{raw}",
+              "voice": "{m} meters"
+            },
+            {
+              "fromMeters": 4996,
+              "text": "{raw}",
+              "voice": "{km} kilometers"
+            },
+            {
+              "fromMeters": 9999,
+              "text": "10K",
+              "voice": "10 kilometers"
+            }
+          ],
           "cavokVoice": "CAVOK",
           "cavokText": "CAVOK",
-          "includeVisibilitySuffix": true,
-          "metersCutoff": 4995,
-          "metersUnitVoice": "meters",
-          "kilometersUnitVoice": "kilometers",
           "fractionVoice": {
             "M1/4SM": "less than one quarter.",
             "1 1/8SM": "one and one eighth.",
@@ -15271,19 +15337,19 @@
         {
           "text": "6, 6, 6,\r\nALL PARTS 100PERCENT DRY PAUSE",
           "ordinal": 1,
-          "weatherCondition": "weather EXCLUDES SHRA AND weather EXCLUDES RA AND weather EXCLUDES DZ AND weather EXCLUDES TSRA AND weather EXCLUDES SN AND weather EXCLUDES SHSN AND weather EXCLUDES BLSN",
+          "weatherCondition": "weather EXCLUDES SHRA AND weather EXCLUDES RA AND weather EXCLUDES DZ AND weather EXCLUDES FZDZ AND weather EXCLUDES FZRA AND weather EXCLUDES TSRA AND weather EXCLUDES SN AND weather EXCLUDES SHSN AND weather EXCLUDES BLSN and recentweather EXCLUDES TSRA and recentweather EXCLUDES RA and recentweather EXCLUDES SHRA and recentweather EXCLUDES FZRA and recentweather EXCLUDES DZ and recentweather EXCLUDES FZDZ and recentweather EXCLUDES SN and recentweather EXCLUDES SHSN and recentweather EXCLUDES BLSN and tempoweather EXCLUDES TSRA and tempoweather EXCLUDES RA and tempoweather EXCLUDES SHRA and tempoweather EXCLUDES FZRA and tempoweather EXCLUDES DZ and tempoweather EXCLUDES FZDZ and tempoweather EXCLUDES SN and tempoweather EXCLUDES SHSN and tempoweather EXCLUDES BLSN",
           "enabled": true
         },
         {
           "text": "5, 5, 5,\r\nALL PARTS 100PERCENT WET PAUSE",
           "ordinal": 2,
-          "weatherCondition": "weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR weather INCLUDES TSRA",
+          "weatherCondition": "weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR weather INCLUDES TSRA or recentweather INCLUDES TSRA or recentweather INCLUDES RA or recentweather INCLUDES SHRA or recentweather INCLUDES DZ or tempoweather INCLUDES TSRA or tempoweather INCLUDES RA or tempoweather INCLUDES SHRA or tempoweather INCLUDES DZ",
           "enabled": true
         },
         {
           "text": "5, 5, 5,\r\nALL PARTS 100PERCENT 03 MILLIMETERS DRY SNOW PAUSE",
           "ordinal": 3,
-          "weatherCondition": "weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN",
+          "weatherCondition": "weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN or recentweather INCLUDES SN OR recentweather INCLUDES SHSN OR recentweather INCLUDES BLSN OR tempoweather INCLUDES SN OR tempoweather INCLUDES SHSN OR tempoweather INCLUDES BLSN",
           "enabled": true
         },
         {
@@ -15467,14 +15533,25 @@
             "W": "W",
             "NW": "NW"
           },
-          "unlimitedVisibilityVoice": "visibility 10 kilometers",
-          "unlimitedVisibilityText": "VIS 10KM",
+          "formatRules": [
+            {
+              "fromMeters": 0,
+              "text": "{raw}",
+              "voice": "{m} meters"
+            },
+            {
+              "fromMeters": 4996,
+              "text": "{raw}",
+              "voice": "{km} kilometers"
+            },
+            {
+              "fromMeters": 9999,
+              "text": "10K",
+              "voice": "10 kilometers"
+            }
+          ],
           "cavokVoice": "CAVOK",
           "cavokText": "CAVOK",
-          "includeVisibilitySuffix": true,
-          "metersCutoff": 4995,
-          "metersUnitVoice": "meters",
-          "kilometersUnitVoice": "kilometers",
           "fractionVoice": {
             "M1/4SM": "less than one quarter.",
             "1 1/8SM": "one and one eighth.",
@@ -17877,19 +17954,19 @@
         {
           "text": "6, 6, 6,\r\nALL PARTS 100PERCENT DRY PAUSE",
           "ordinal": 1,
-          "weatherCondition": "weather EXCLUDES SHRA AND weather EXCLUDES RA AND weather EXCLUDES DZ AND weather EXCLUDES TSRA AND weather EXCLUDES SN AND weather EXCLUDES SHSN AND weather EXCLUDES BLSN",
+          "weatherCondition": "weather EXCLUDES SHRA AND weather EXCLUDES RA AND weather EXCLUDES DZ AND weather EXCLUDES FZDZ AND weather EXCLUDES FZRA AND weather EXCLUDES TSRA AND weather EXCLUDES SN AND weather EXCLUDES SHSN AND weather EXCLUDES BLSN and recentweather EXCLUDES TSRA and recentweather EXCLUDES RA and recentweather EXCLUDES SHRA and recentweather EXCLUDES FZRA and recentweather EXCLUDES DZ and recentweather EXCLUDES FZDZ and recentweather EXCLUDES SN and recentweather EXCLUDES SHSN and recentweather EXCLUDES BLSN and tempoweather EXCLUDES TSRA and tempoweather EXCLUDES RA and tempoweather EXCLUDES SHRA and tempoweather EXCLUDES FZRA and tempoweather EXCLUDES DZ and tempoweather EXCLUDES FZDZ and tempoweather EXCLUDES SN and tempoweather EXCLUDES SHSN and tempoweather EXCLUDES BLSN",
           "enabled": true
         },
         {
           "text": "5, 5, 5,\r\nALL PARTS 100PERCENT WET PAUSE",
           "ordinal": 2,
-          "weatherCondition": "weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR weather INCLUDES TSRA",
+          "weatherCondition": "weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR weather INCLUDES TSRA or recentweather INCLUDES TSRA or recentweather INCLUDES RA or recentweather INCLUDES SHRA or recentweather INCLUDES DZ or tempoweather INCLUDES TSRA or tempoweather INCLUDES RA or tempoweather INCLUDES SHRA or tempoweather INCLUDES DZ",
           "enabled": true
         },
         {
           "text": "5, 5, 5,\r\nALL PARTS 100PERCENT 03 MILLIMETERS DRY SNOW PAUSE",
           "ordinal": 3,
-          "weatherCondition": "weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN",
+          "weatherCondition": "weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN or recentweather INCLUDES SN OR recentweather INCLUDES SHSN OR recentweather INCLUDES BLSN OR tempoweather INCLUDES SN OR tempoweather INCLUDES SHSN OR tempoweather INCLUDES BLSN",
           "enabled": true
         },
         {
@@ -18061,14 +18138,25 @@
             "W": "W",
             "NW": "NW"
           },
-          "unlimitedVisibilityVoice": "visibility ten kilometers",
-          "unlimitedVisibilityText": "VIS 10KM",
+          "formatRules": [
+            {
+              "fromMeters": 0,
+              "text": "{raw}",
+              "voice": "{m} meters"
+            },
+            {
+              "fromMeters": 4996,
+              "text": "{raw}",
+              "voice": "{km} kilometers"
+            },
+            {
+              "fromMeters": 9999,
+              "text": "10K",
+              "voice": "ten kilometers"
+            }
+          ],
           "cavokVoice": "CAVOK",
           "cavokText": "CAVOK",
-          "includeVisibilitySuffix": true,
-          "metersCutoff": 4995,
-          "metersUnitVoice": "meters",
-          "kilometersUnitVoice": "kilometers",
           "fractionVoice": {
             "M1/4SM": "less than one quarter.",
             "1 1/8SM": "one and one eighth.",
@@ -20394,19 +20482,19 @@
         {
           "text": "6, 6, 6,\r\nALL PARTS 100PERCENT DRY PAUSE",
           "ordinal": 1,
-          "weatherCondition": "weather EXCLUDES SHRA AND weather EXCLUDES RA AND weather EXCLUDES DZ AND weather EXCLUDES TSRA AND weather EXCLUDES SN AND weather EXCLUDES SHSN AND weather EXCLUDES BLSN",
+          "weatherCondition": "weather EXCLUDES SHRA AND weather EXCLUDES RA AND weather EXCLUDES DZ AND weather EXCLUDES FZDZ AND weather EXCLUDES FZRA AND weather EXCLUDES TSRA AND weather EXCLUDES SN AND weather EXCLUDES SHSN AND weather EXCLUDES BLSN and recentweather EXCLUDES TSRA and recentweather EXCLUDES RA and recentweather EXCLUDES SHRA and recentweather EXCLUDES FZRA and recentweather EXCLUDES DZ and recentweather EXCLUDES FZDZ and recentweather EXCLUDES SN and recentweather EXCLUDES SHSN and recentweather EXCLUDES BLSN and tempoweather EXCLUDES TSRA and tempoweather EXCLUDES RA and tempoweather EXCLUDES SHRA and tempoweather EXCLUDES FZRA and tempoweather EXCLUDES DZ and tempoweather EXCLUDES FZDZ and tempoweather EXCLUDES SN and tempoweather EXCLUDES SHSN and tempoweather EXCLUDES BLSN",
           "enabled": true
         },
         {
           "text": "5, 5, 5,\r\nALL PARTS 100PERCENT WET PAUSE",
           "ordinal": 2,
-          "weatherCondition": "weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR weather INCLUDES TSRA",
+          "weatherCondition": "weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR weather INCLUDES TSRA or recentweather INCLUDES TSRA or recentweather INCLUDES RA or recentweather INCLUDES SHRA or recentweather INCLUDES DZ or tempoweather INCLUDES TSRA or tempoweather INCLUDES RA or tempoweather INCLUDES SHRA or tempoweather INCLUDES DZ",
           "enabled": true
         },
         {
           "text": "5, 5, 5,\r\nALL PARTS 100PERCENT 03 MILLIMETERS DRY SNOW PAUSE",
           "ordinal": 3,
-          "weatherCondition": "weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN",
+          "weatherCondition": "weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN or recentweather INCLUDES SN OR recentweather INCLUDES SHSN OR recentweather INCLUDES BLSN OR tempoweather INCLUDES SN OR tempoweather INCLUDES SHSN OR tempoweather INCLUDES BLSN",
           "enabled": true
         },
         {
@@ -20578,14 +20666,25 @@
             "W": "W",
             "NW": "NW"
           },
-          "unlimitedVisibilityVoice": "visibility 10 kilometers",
-          "unlimitedVisibilityText": "VIS 10KM",
+          "formatRules": [
+            {
+              "fromMeters": 0,
+              "text": "{raw}",
+              "voice": "{m} meters"
+            },
+            {
+              "fromMeters": 4996,
+              "text": "{raw}",
+              "voice": "{km} kilometers"
+            },
+            {
+              "fromMeters": 9999,
+              "text": "10K",
+              "voice": "10 kilometers"
+            }
+          ],
           "cavokVoice": "CAVOK",
           "cavokText": "CAVOK",
-          "includeVisibilitySuffix": true,
-          "metersCutoff": 4995,
-          "metersUnitVoice": "meters",
-          "kilometersUnitVoice": "kilometers",
           "fractionVoice": {
             "M1/4SM": "less than one quarter.",
             "1 1/8SM": "one and one eighth.",
@@ -22886,19 +22985,19 @@
         {
           "text": "6, 6, 6,\r\nALL PARTS 100 PERCENT DRY PAUSE",
           "ordinal": 1,
-          "weatherCondition": "weather EXCLUDES SHRA AND weather EXCLUDES RA AND weather EXCLUDES DZ AND weather EXCLUDES TSRA AND weather EXCLUDES SN AND weather EXCLUDES SHSN AND weather EXCLUDES BLSN",
+          "weatherCondition": "weather EXCLUDES SHRA AND weather EXCLUDES RA AND weather EXCLUDES DZ AND weather EXCLUDES FZDZ AND weather EXCLUDES FZRA AND weather EXCLUDES TSRA AND weather EXCLUDES SN AND weather EXCLUDES SHSN AND weather EXCLUDES BLSN and recentweather EXCLUDES TSRA and recentweather EXCLUDES RA and recentweather EXCLUDES SHRA and recentweather EXCLUDES FZRA and recentweather EXCLUDES DZ and recentweather EXCLUDES FZDZ and recentweather EXCLUDES SN and recentweather EXCLUDES SHSN and recentweather EXCLUDES BLSN and tempoweather EXCLUDES TSRA and tempoweather EXCLUDES RA and tempoweather EXCLUDES SHRA and tempoweather EXCLUDES FZRA and tempoweather EXCLUDES DZ and tempoweather EXCLUDES FZDZ and tempoweather EXCLUDES SN and tempoweather EXCLUDES SHSN and tempoweather EXCLUDES BLSN",
           "enabled": true
         },
         {
           "text": "5, 5, 5,\r\nALL PARTS 100 PERCENT WET PAUSE",
           "ordinal": 2,
-          "weatherCondition": "weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR weather INCLUDES TSRA",
+          "weatherCondition": "weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR weather INCLUDES TSRA or recentweather INCLUDES TSRA or recentweather INCLUDES RA or recentweather INCLUDES SHRA or recentweather INCLUDES DZ or tempoweather INCLUDES TSRA or tempoweather INCLUDES RA or tempoweather INCLUDES SHRA or tempoweather INCLUDES DZ",
           "enabled": true
         },
         {
           "text": "5, 5, 5,\r\nALL PARTS 100 PERCENT 03 MILLIMETERS DRY SNOW PAUSE",
           "ordinal": 3,
-          "weatherCondition": "weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN",
+          "weatherCondition": "weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN or recentweather INCLUDES SN OR recentweather INCLUDES SHSN OR recentweather INCLUDES BLSN OR tempoweather INCLUDES SN OR tempoweather INCLUDES SHSN OR tempoweather INCLUDES BLSN",
           "enabled": true
         },
         {
