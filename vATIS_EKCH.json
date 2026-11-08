@@ -2,7 +2,7 @@
   "name": "EKCH",
   "id": "7119edbb-55b3-4feb-af26-0b93ec59a470",
   "updateUrl": "https://raw.githubusercontent.com/Vatsim-Scandinavia/EKDK-vATIS/refs/heads/main/vATIS_EKCH.json",
-  "updateSerial": 2026110601,
+  "updateSerial": 2026110801,
   "stations": [
     {
       "id": "ea844f5a-465b-4b4c-8c6b-9334cd537930",
@@ -2051,7 +2051,7 @@
             }
           },
           "template": {
-            "text": "T {temp:#-}",
+            "text": "T{temp:#-}",
             "voice": "TEMPERATURE {temp}"
           }
         },
@@ -2069,7 +2069,7 @@
             }
           },
           "template": {
-            "text": "DP {dewpoint:#-}",
+            "text": "DP{dewpoint:#-}",
             "voice": "DEWPOINT {dewpoint}"
           }
         },
@@ -2593,13 +2593,13 @@
         {
           "text": "CHEMICALLY TREATED PAUSE",
           "ordinal": 5,
-          "weatherCondition": "temperature <= 3c",
+          "weatherCondition": "temperature <= 0c",
           "enabled": true
         },
         {
           "text": "LOW VISIBILITY PROCEDURES IN OPERATION PAUSE",
           "ordinal": 6,
-          "weatherCondition": "visibility <= 1000m OR rvr <= 1000m OR ceiling <= 300ft",
+          "weatherCondition": "visibility <= 1000m OR tempovisibility <= 1000m OR rvr <= 1000m OR ceiling <= 300ft",
           "enabled": true
         }
       ],
@@ -2619,7 +2619,7 @@
         {
           "text": "STATE IF REQUESTING DEICING PAUSE",
           "ordinal": 3,
-          "weatherCondition": "temperature <= 3c",
+          "weatherCondition": "temperature <= 0c OR (temperature <= 3c AND (weather INCLUDES RA OR weather INCLUDES FZRA OR weather INCLUDES SHRA OR weather INCLUDES DZ OR weather INCLUDES FZDZ OR weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN OR weather INCLUDES FZFG OR tempoweather INCLUDES RA OR tempoweather INCLUDES FZRA OR tempoweather INCLUDES SHRA OR tempoweather INCLUDES DZ OR tempoweather INCLUDES FZDZ OR tempoweather INCLUDES SN OR tempoweather INCLUDES SHSN OR tempoweather INCLUDES BLSN OR tempoweather INCLUDES FZFG))",
           "enabled": true
         }
       ],
@@ -4676,7 +4676,7 @@
             }
           },
           "template": {
-            "text": "T {temp:#-}",
+            "text": "T{temp:#-}",
             "voice": "TEMPERATURE {temp}"
           }
         },
@@ -4694,7 +4694,7 @@
             }
           },
           "template": {
-            "text": "DP {dewpoint:#-}",
+            "text": "DP{dewpoint:#-}",
             "voice": "DEWPOINT {dewpoint}"
           }
         },
@@ -5204,13 +5204,13 @@
         {
           "text": "CHEMICALLY TREATED PAUSE",
           "ordinal": 5,
-          "weatherCondition": "temperature <= 3c",
+          "weatherCondition": "temperature <= 0c",
           "enabled": true
         },
         {
           "text": "LOW VISIBILITY PROCEDURES IN OPERATION PAUSE",
           "ordinal": 6,
-          "weatherCondition": "visibility <= 1000m OR rvr <= 1000m OR ceiling <= 300ft",
+          "weatherCondition": "visibility <= 1000m OR tempovisibility <= 1000m OR rvr <= 1000m OR ceiling <= 300ft",
           "enabled": true
         }
       ],
@@ -5218,7 +5218,7 @@
         {
           "text": "ON FIRST CONTACT, STATE IF REQUESTING DEICING PAUSE",
           "ordinal": 1,
-          "weatherCondition": "temperature <= 3c",
+          "weatherCondition": "temperature <= 0c OR (temperature <= 3c AND (weather INCLUDES RA OR weather INCLUDES FZRA OR weather INCLUDES SHRA OR weather INCLUDES DZ OR weather INCLUDES FZDZ OR weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN OR weather INCLUDES FZFG OR tempoweather INCLUDES RA OR tempoweather INCLUDES FZRA OR tempoweather INCLUDES SHRA OR tempoweather INCLUDES DZ OR tempoweather INCLUDES FZDZ OR tempoweather INCLUDES SN OR tempoweather INCLUDES SHSN OR tempoweather INCLUDES BLSN OR tempoweather INCLUDES FZFG))",
           "enabled": true
         }
       ],
@@ -7275,7 +7275,7 @@
             }
           },
           "template": {
-            "text": "T {temp:#-}",
+            "text": "T{temp:#-}",
             "voice": "TEMPERATURE {temp}"
           }
         },
@@ -7293,7 +7293,7 @@
             }
           },
           "template": {
-            "text": "DP {dewpoint:#-}",
+            "text": "DP{dewpoint:#-}",
             "voice": "DEWPOINT {dewpoint}"
           }
         },
@@ -7814,13 +7814,13 @@
         {
           "text": "CHEMICALLY TREATED PAUSE",
           "ordinal": 5,
-          "weatherCondition": "temperature <= 3c",
+          "weatherCondition": "temperature <= 0c",
           "enabled": true
         },
         {
           "text": "LOW VISIBILITY PROCEDURES IN OPERATION PAUSE",
           "ordinal": 6,
-          "weatherCondition": "visibility <= 1000m OR rvr <= 1000m OR ceiling <= 300ft",
+          "weatherCondition": "visibility <= 1000m OR tempovisibility <= 1000m OR rvr <= 1000m OR ceiling <= 300ft",
           "enabled": true
         },
         {
