@@ -2,7 +2,7 @@
   "name": "EKDK",
   "id": "b88713b8-59ea-40cc-8e3d-1bd6e942b6c5",
   "updateUrl": "https://raw.githubusercontent.com/Vatsim-Scandinavia/EKDK-vATIS/refs/heads/main/vATIS_EKDK.json",
-  "updateSerial": 2026110803,
+  "updateSerial": 2026110804,
   "stations": [
     {
       "id": "d97dd234-2106-4a40-b78d-7e6cc812231b",
@@ -2486,19 +2486,19 @@
         {
           "text": "5, 5, 5,\r\nALL PARTS 100PERCENT WET PAUSE",
           "ordinal": 2,
-          "weatherCondition": "weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR weather INCLUDES TSRA or recentweather INCLUDES TSRA or recentweather INCLUDES RA or recentweather INCLUDES SHRA or recentweather INCLUDES DZ or tempoweather INCLUDES TSRA or tempoweather INCLUDES RA or tempoweather INCLUDES SHRA or tempoweather INCLUDES DZ",
+          "weatherCondition": "(weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR weather INCLUDES TSRA OR recentweather INCLUDES TSRA OR recentweather INCLUDES RA OR recentweather INCLUDES SHRA OR recentweather INCLUDES DZ OR tempoweather INCLUDES TSRA OR tempoweather INCLUDES RA OR tempoweather INCLUDES SHRA OR tempoweather INCLUDES DZ) AND (weather EXCLUDES SN AND weather EXCLUDES SHSN AND weather EXCLUDES BLSN) AND (recentweather EXCLUDES SN AND recentweather EXCLUDES SHSN AND recentweather EXCLUDES BLSN) AND (tempoweather EXCLUDES SN AND tempoweather EXCLUDES SHSN AND tempoweather EXCLUDES BLSN)",
           "enabled": true
         },
         {
           "text": "5, 5, 5,\r\nALL PARTS 100PERCENT 03 MILLIMETERS DRY SNOW PAUSE",
           "ordinal": 3,
-          "weatherCondition": "weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN or recentweather INCLUDES SN OR recentweather INCLUDES SHSN OR recentweather INCLUDES BLSN OR tempoweather INCLUDES SN OR tempoweather INCLUDES SHSN OR tempoweather INCLUDES BLSN",
+          "weatherCondition": "(weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN OR recentweather INCLUDES SN OR recentweather INCLUDES SHSN OR recentweather INCLUDES BLSN OR tempoweather INCLUDES SN OR tempoweather INCLUDES SHSN OR tempoweather INCLUDES BLSN) \r\nAND \r\n(weather EXCLUDES SHRA AND weather EXCLUDES RA AND weather EXCLUDES DZ AND weather EXCLUDES TSRA AND weather EXCLUDES FZRA AND weather EXCLUDES FZDZ) \r\nAND \r\n(recentweather EXCLUDES SHRA AND recentweather EXCLUDES RA AND recentweather EXCLUDES DZ AND recentweather EXCLUDES TSRA AND recentweather EXCLUDES FZRA AND recentweather EXCLUDES FZDZ) \r\nAND \r\n(tempoweather EXCLUDES SHRA AND tempoweather EXCLUDES RA AND tempoweather EXCLUDES DZ AND tempoweather EXCLUDES TSRA AND tempoweather EXCLUDES FZRA AND tempoweather EXCLUDES FZDZ)",
           "enabled": true
         },
         {
-          "text": "3, 3, 3,\r\nALL PARTS 100PERCENT 03 MILLIMETERS WET SNOW PAUSE",
-          "ordinal": 3,
-          "weatherCondition": "(weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN OR recentweather INCLUDES SN OR recentweather INCLUDES SHSN OR recentweather INCLUDES BLSN OR tempoweather INCLUDES SN OR tempoweather INCLUDES SHSN OR tempoweather INCLUDES BLSN) AND (weather INCLUDES FZRA OR weather INCLUDES FZDZ OR weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR recentweather INCLUDES FZRA OR recentweather INCLUDES FZDZ OR recentweather INCLUDES RA OR recentweather INCLUDES SHRA OR recentweather INCLUDES DZ OR tempoweather INCLUDES RA OR tempoweather INCLUDES SHRA OR tempoweather INCLUDES DZ OR tempoweather INCLUDES FZRA OR tempoweather INCLUDES FZDZ)",
+          "text": "3, 3, 3,\r\nALL PARTS 75PERCENT 03 MILLIMETERS WET SNOW PAUSE",
+          "ordinal": 4,
+          "weatherCondition": "((weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN OR recentweather INCLUDES SN OR recentweather INCLUDES SHSN OR recentweather INCLUDES BLSN OR tempoweather INCLUDES SN OR tempoweather INCLUDES SHSN OR tempoweather INCLUDES BLSN)) \r\nAND ((weather INCLUDES FZRA OR weather INCLUDES FZDZ OR weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ) \r\nOR (recentweather INCLUDES FZRA OR recentweather INCLUDES FZDZ OR recentweather INCLUDES RA OR recentweather INCLUDES SHRA OR recentweather INCLUDES DZ) \r\nOR (tempoweather INCLUDES RA OR tempoweather INCLUDES SHRA OR tempoweather INCLUDES DZ OR tempoweather INCLUDES FZRA OR tempoweather INCLUDES FZDZ))",
           "enabled": true
         },
         {
@@ -5033,19 +5033,19 @@
         {
           "text": "5, 5, 5,\r\nALL PARTS PAUSE WET PAUSE",
           "ordinal": 2,
-          "weatherCondition": "weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR weather INCLUDES TSRA or recentweather INCLUDES TSRA or recentweather INCLUDES RA or recentweather INCLUDES SHRA or recentweather INCLUDES DZ or tempoweather INCLUDES TSRA or tempoweather INCLUDES RA or tempoweather INCLUDES SHRA or tempoweather INCLUDES DZ",
+          "weatherCondition": "(weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR weather INCLUDES TSRA OR recentweather INCLUDES TSRA OR recentweather INCLUDES RA OR recentweather INCLUDES SHRA OR recentweather INCLUDES DZ OR tempoweather INCLUDES TSRA OR tempoweather INCLUDES RA OR tempoweather INCLUDES SHRA OR tempoweather INCLUDES DZ) AND (weather EXCLUDES SN AND weather EXCLUDES SHSN AND weather EXCLUDES BLSN) AND (recentweather EXCLUDES SN AND recentweather EXCLUDES SHSN AND recentweather EXCLUDES BLSN) AND (tempoweather EXCLUDES SN AND tempoweather EXCLUDES SHSN AND tempoweather EXCLUDES BLSN)",
           "enabled": true
         },
         {
           "text": "5, 5, 5,\r\nALL PARTS 03 MILLIMETERS DRY SNOW PAUSE",
           "ordinal": 3,
-          "weatherCondition": "weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN or recentweather INCLUDES SN OR recentweather INCLUDES SHSN OR recentweather INCLUDES BLSN OR tempoweather INCLUDES SN OR tempoweather INCLUDES SHSN OR tempoweather INCLUDES BLSN",
+          "weatherCondition": "(weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN OR recentweather INCLUDES SN OR recentweather INCLUDES SHSN OR recentweather INCLUDES BLSN OR tempoweather INCLUDES SN OR tempoweather INCLUDES SHSN OR tempoweather INCLUDES BLSN) \r\nAND \r\n(weather EXCLUDES SHRA AND weather EXCLUDES RA AND weather EXCLUDES DZ AND weather EXCLUDES TSRA AND weather EXCLUDES FZRA AND weather EXCLUDES FZDZ) \r\nAND \r\n(recentweather EXCLUDES SHRA AND recentweather EXCLUDES RA AND recentweather EXCLUDES DZ AND recentweather EXCLUDES TSRA AND recentweather EXCLUDES FZRA AND recentweather EXCLUDES FZDZ) \r\nAND \r\n(tempoweather EXCLUDES SHRA AND tempoweather EXCLUDES RA AND tempoweather EXCLUDES DZ AND tempoweather EXCLUDES TSRA AND tempoweather EXCLUDES FZRA AND tempoweather EXCLUDES FZDZ)",
           "enabled": true
         },
         {
-          "text": "3, 3, 3,\r\nALL PARTS 100PERCENT 03 MILLIMETERS WET SNOW PAUSE",
-          "ordinal": 3,
-          "weatherCondition": "(weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN OR recentweather INCLUDES SN OR recentweather INCLUDES SHSN OR recentweather INCLUDES BLSN OR tempoweather INCLUDES SN OR tempoweather INCLUDES SHSN OR tempoweather INCLUDES BLSN) AND (weather INCLUDES FZRA OR weather INCLUDES FZDZ OR weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR recentweather INCLUDES FZRA OR recentweather INCLUDES FZDZ OR recentweather INCLUDES RA OR recentweather INCLUDES SHRA OR recentweather INCLUDES DZ OR tempoweather INCLUDES RA OR tempoweather INCLUDES SHRA OR tempoweather INCLUDES DZ OR tempoweather INCLUDES FZRA OR tempoweather INCLUDES FZDZ)",
+          "text": "3, 3, 3,\r\nALL PARTS 03 MILLIMETERS WET SNOW PAUSE",
+          "ordinal": 4,
+          "weatherCondition": "((weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN OR recentweather INCLUDES SN OR recentweather INCLUDES SHSN OR recentweather INCLUDES BLSN OR tempoweather INCLUDES SN OR tempoweather INCLUDES SHSN OR tempoweather INCLUDES BLSN)) \r\nAND ((weather INCLUDES FZRA OR weather INCLUDES FZDZ OR weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ) \r\nOR (recentweather INCLUDES FZRA OR recentweather INCLUDES FZDZ OR recentweather INCLUDES RA OR recentweather INCLUDES SHRA OR recentweather INCLUDES DZ) \r\nOR (tempoweather INCLUDES RA OR tempoweather INCLUDES SHRA OR tempoweather INCLUDES DZ OR tempoweather INCLUDES FZRA OR tempoweather INCLUDES FZDZ))",
           "enabled": true
         },
         {
@@ -7580,19 +7580,19 @@
         {
           "text": "5, 5, 5,\r\nALL PARTS WET PAUSE",
           "ordinal": 2,
-          "weatherCondition": "weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR weather INCLUDES TSRA or recentweather INCLUDES TSRA or recentweather INCLUDES RA or recentweather INCLUDES SHRA or recentweather INCLUDES DZ or tempoweather INCLUDES TSRA or tempoweather INCLUDES RA or tempoweather INCLUDES SHRA or tempoweather INCLUDES DZ",
+          "weatherCondition": "(weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR weather INCLUDES TSRA OR recentweather INCLUDES TSRA OR recentweather INCLUDES RA OR recentweather INCLUDES SHRA OR recentweather INCLUDES DZ OR tempoweather INCLUDES TSRA OR tempoweather INCLUDES RA OR tempoweather INCLUDES SHRA OR tempoweather INCLUDES DZ) AND (weather EXCLUDES SN AND weather EXCLUDES SHSN AND weather EXCLUDES BLSN) AND (recentweather EXCLUDES SN AND recentweather EXCLUDES SHSN AND recentweather EXCLUDES BLSN) AND (tempoweather EXCLUDES SN AND tempoweather EXCLUDES SHSN AND tempoweather EXCLUDES BLSN)",
           "enabled": true
         },
         {
           "text": "5, 5, 5,\r\nALL PARTS 03 MILLIMETERS DRY SNOW PAUSE",
           "ordinal": 3,
-          "weatherCondition": "weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN or recentweather INCLUDES SN OR recentweather INCLUDES SHSN OR recentweather INCLUDES BLSN OR tempoweather INCLUDES SN OR tempoweather INCLUDES SHSN OR tempoweather INCLUDES BLSN",
+          "weatherCondition": "(weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN OR recentweather INCLUDES SN OR recentweather INCLUDES SHSN OR recentweather INCLUDES BLSN OR tempoweather INCLUDES SN OR tempoweather INCLUDES SHSN OR tempoweather INCLUDES BLSN) \r\nAND \r\n(weather EXCLUDES SHRA AND weather EXCLUDES RA AND weather EXCLUDES DZ AND weather EXCLUDES TSRA AND weather EXCLUDES FZRA AND weather EXCLUDES FZDZ) \r\nAND \r\n(recentweather EXCLUDES SHRA AND recentweather EXCLUDES RA AND recentweather EXCLUDES DZ AND recentweather EXCLUDES TSRA AND recentweather EXCLUDES FZRA AND recentweather EXCLUDES FZDZ) \r\nAND \r\n(tempoweather EXCLUDES SHRA AND tempoweather EXCLUDES RA AND tempoweather EXCLUDES DZ AND tempoweather EXCLUDES TSRA AND tempoweather EXCLUDES FZRA AND tempoweather EXCLUDES FZDZ)",
           "enabled": true
         },
         {
           "text": "3, 3, 3,\r\nALL PARTS 03 MILLIMETERS WET SNOW PAUSE",
-          "ordinal": 3,
-          "weatherCondition": "(weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN OR recentweather INCLUDES SN OR recentweather INCLUDES SHSN OR recentweather INCLUDES BLSN OR tempoweather INCLUDES SN OR tempoweather INCLUDES SHSN OR tempoweather INCLUDES BLSN) AND (weather INCLUDES FZRA OR weather INCLUDES FZDZ OR weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR recentweather INCLUDES FZRA OR recentweather INCLUDES FZDZ OR recentweather INCLUDES RA OR recentweather INCLUDES SHRA OR recentweather INCLUDES DZ OR tempoweather INCLUDES RA OR tempoweather INCLUDES SHRA OR tempoweather INCLUDES DZ OR tempoweather INCLUDES FZRA OR tempoweather INCLUDES FZDZ)",
+          "ordinal": 4,
+          "weatherCondition": "((weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN OR recentweather INCLUDES SN OR recentweather INCLUDES SHSN OR recentweather INCLUDES BLSN OR tempoweather INCLUDES SN OR tempoweather INCLUDES SHSN OR tempoweather INCLUDES BLSN)) \r\nAND ((weather INCLUDES FZRA OR weather INCLUDES FZDZ OR weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ) \r\nOR (recentweather INCLUDES FZRA OR recentweather INCLUDES FZDZ OR recentweather INCLUDES RA OR recentweather INCLUDES SHRA OR recentweather INCLUDES DZ) \r\nOR (tempoweather INCLUDES RA OR tempoweather INCLUDES SHRA OR tempoweather INCLUDES DZ OR tempoweather INCLUDES FZRA OR tempoweather INCLUDES FZDZ))",
           "enabled": true
         },
         {
@@ -10117,19 +10117,19 @@
         {
           "text": "5, 5, 5,\r\nALL PARTS WET PAUSE",
           "ordinal": 2,
-          "weatherCondition": "weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR weather INCLUDES TSRA or recentweather INCLUDES TSRA or recentweather INCLUDES RA or recentweather INCLUDES SHRA or recentweather INCLUDES DZ or tempoweather INCLUDES TSRA or tempoweather INCLUDES RA or tempoweather INCLUDES SHRA or tempoweather INCLUDES DZ",
+          "weatherCondition": "(weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR weather INCLUDES TSRA OR recentweather INCLUDES TSRA OR recentweather INCLUDES RA OR recentweather INCLUDES SHRA OR recentweather INCLUDES DZ OR tempoweather INCLUDES TSRA OR tempoweather INCLUDES RA OR tempoweather INCLUDES SHRA OR tempoweather INCLUDES DZ) AND (weather EXCLUDES SN AND weather EXCLUDES SHSN AND weather EXCLUDES BLSN) AND (recentweather EXCLUDES SN AND recentweather EXCLUDES SHSN AND recentweather EXCLUDES BLSN) AND (tempoweather EXCLUDES SN AND tempoweather EXCLUDES SHSN AND tempoweather EXCLUDES BLSN)",
           "enabled": true
         },
         {
           "text": "5, 5, 5,\r\nALL PARTS 03 MILLIMETERS DRY SNOW PAUSE",
           "ordinal": 3,
-          "weatherCondition": "weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN or recentweather INCLUDES SN OR recentweather INCLUDES SHSN OR recentweather INCLUDES BLSN OR tempoweather INCLUDES SN OR tempoweather INCLUDES SHSN OR tempoweather INCLUDES BLSN",
+          "weatherCondition": "(weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN OR recentweather INCLUDES SN OR recentweather INCLUDES SHSN OR recentweather INCLUDES BLSN OR tempoweather INCLUDES SN OR tempoweather INCLUDES SHSN OR tempoweather INCLUDES BLSN) \r\nAND \r\n(weather EXCLUDES SHRA AND weather EXCLUDES RA AND weather EXCLUDES DZ AND weather EXCLUDES TSRA AND weather EXCLUDES FZRA AND weather EXCLUDES FZDZ) \r\nAND \r\n(recentweather EXCLUDES SHRA AND recentweather EXCLUDES RA AND recentweather EXCLUDES DZ AND recentweather EXCLUDES TSRA AND recentweather EXCLUDES FZRA AND recentweather EXCLUDES FZDZ) \r\nAND \r\n(tempoweather EXCLUDES SHRA AND tempoweather EXCLUDES RA AND tempoweather EXCLUDES DZ AND tempoweather EXCLUDES TSRA AND tempoweather EXCLUDES FZRA AND tempoweather EXCLUDES FZDZ)",
           "enabled": true
         },
         {
           "text": "3, 3, 3,\r\nALL PARTS 03 MILLIMETERS WET SNOW PAUSE",
-          "ordinal": 3,
-          "weatherCondition": "(weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN OR recentweather INCLUDES SN OR recentweather INCLUDES SHSN OR recentweather INCLUDES BLSN OR tempoweather INCLUDES SN OR tempoweather INCLUDES SHSN OR tempoweather INCLUDES BLSN) AND (weather INCLUDES FZRA OR weather INCLUDES FZDZ OR weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR recentweather INCLUDES FZRA OR recentweather INCLUDES FZDZ OR recentweather INCLUDES RA OR recentweather INCLUDES SHRA OR recentweather INCLUDES DZ OR tempoweather INCLUDES RA OR tempoweather INCLUDES SHRA OR tempoweather INCLUDES DZ OR tempoweather INCLUDES FZRA OR tempoweather INCLUDES FZDZ)",
+          "ordinal": 4,
+          "weatherCondition": "((weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN OR recentweather INCLUDES SN OR recentweather INCLUDES SHSN OR recentweather INCLUDES BLSN OR tempoweather INCLUDES SN OR tempoweather INCLUDES SHSN OR tempoweather INCLUDES BLSN)) \r\nAND ((weather INCLUDES FZRA OR weather INCLUDES FZDZ OR weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ) \r\nOR (recentweather INCLUDES FZRA OR recentweather INCLUDES FZDZ OR recentweather INCLUDES RA OR recentweather INCLUDES SHRA OR recentweather INCLUDES DZ) \r\nOR (tempoweather INCLUDES RA OR tempoweather INCLUDES SHRA OR tempoweather INCLUDES DZ OR tempoweather INCLUDES FZRA OR tempoweather INCLUDES FZDZ))",
           "enabled": true
         },
         {
@@ -12744,19 +12744,19 @@
         {
           "text": "5, 5, 5,\r\nALL PARTS 100PERCENT WET PAUSE",
           "ordinal": 2,
-          "weatherCondition": "weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR weather INCLUDES TSRA or recentweather INCLUDES TSRA or recentweather INCLUDES RA or recentweather INCLUDES SHRA or recentweather INCLUDES DZ or tempoweather INCLUDES TSRA or tempoweather INCLUDES RA or tempoweather INCLUDES SHRA or tempoweather INCLUDES DZ",
+          "weatherCondition": "(weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR weather INCLUDES TSRA OR recentweather INCLUDES TSRA OR recentweather INCLUDES RA OR recentweather INCLUDES SHRA OR recentweather INCLUDES DZ OR tempoweather INCLUDES TSRA OR tempoweather INCLUDES RA OR tempoweather INCLUDES SHRA OR tempoweather INCLUDES DZ) AND (weather EXCLUDES SN AND weather EXCLUDES SHSN AND weather EXCLUDES BLSN) AND (recentweather EXCLUDES SN AND recentweather EXCLUDES SHSN AND recentweather EXCLUDES BLSN) AND (tempoweather EXCLUDES SN AND tempoweather EXCLUDES SHSN AND tempoweather EXCLUDES BLSN)",
           "enabled": true
         },
         {
           "text": "5, 5, 5,\r\nALL PARTS 100PERCENT 03 MILLIMETERS DRY SNOW PAUSE",
           "ordinal": 3,
-          "weatherCondition": "weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN or recentweather INCLUDES SN OR recentweather INCLUDES SHSN OR recentweather INCLUDES BLSN OR tempoweather INCLUDES SN OR tempoweather INCLUDES SHSN OR tempoweather INCLUDES BLSN",
+          "weatherCondition": "(weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN OR recentweather INCLUDES SN OR recentweather INCLUDES SHSN OR recentweather INCLUDES BLSN OR tempoweather INCLUDES SN OR tempoweather INCLUDES SHSN OR tempoweather INCLUDES BLSN) \r\nAND \r\n(weather EXCLUDES SHRA AND weather EXCLUDES RA AND weather EXCLUDES DZ AND weather EXCLUDES TSRA AND weather EXCLUDES FZRA AND weather EXCLUDES FZDZ) \r\nAND \r\n(recentweather EXCLUDES SHRA AND recentweather EXCLUDES RA AND recentweather EXCLUDES DZ AND recentweather EXCLUDES TSRA AND recentweather EXCLUDES FZRA AND recentweather EXCLUDES FZDZ) \r\nAND \r\n(tempoweather EXCLUDES SHRA AND tempoweather EXCLUDES RA AND tempoweather EXCLUDES DZ AND tempoweather EXCLUDES TSRA AND tempoweather EXCLUDES FZRA AND tempoweather EXCLUDES FZDZ)",
           "enabled": true
         },
         {
-          "text": "3, 3, 3,\r\nALL PARTS 100PERCENT 03 MILLIMETERS WET SNOW PAUSE",
-          "ordinal": 3,
-          "weatherCondition": "(weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN OR recentweather INCLUDES SN OR recentweather INCLUDES SHSN OR recentweather INCLUDES BLSN OR tempoweather INCLUDES SN OR tempoweather INCLUDES SHSN OR tempoweather INCLUDES BLSN) AND (weather INCLUDES FZRA OR weather INCLUDES FZDZ OR weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR recentweather INCLUDES FZRA OR recentweather INCLUDES FZDZ OR recentweather INCLUDES RA OR recentweather INCLUDES SHRA OR recentweather INCLUDES DZ OR tempoweather INCLUDES RA OR tempoweather INCLUDES SHRA OR tempoweather INCLUDES DZ OR tempoweather INCLUDES FZRA OR tempoweather INCLUDES FZDZ)",
+          "text": "3, 3, 3,\r\nALL PARTS 75PERCENT 03 MILLIMETERS WET SNOW PAUSE",
+          "ordinal": 4,
+          "weatherCondition": "((weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN OR recentweather INCLUDES SN OR recentweather INCLUDES SHSN OR recentweather INCLUDES BLSN OR tempoweather INCLUDES SN OR tempoweather INCLUDES SHSN OR tempoweather INCLUDES BLSN)) \r\nAND ((weather INCLUDES FZRA OR weather INCLUDES FZDZ OR weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ) \r\nOR (recentweather INCLUDES FZRA OR recentweather INCLUDES FZDZ OR recentweather INCLUDES RA OR recentweather INCLUDES SHRA OR recentweather INCLUDES DZ) \r\nOR (tempoweather INCLUDES RA OR tempoweather INCLUDES SHRA OR tempoweather INCLUDES DZ OR tempoweather INCLUDES FZRA OR tempoweather INCLUDES FZDZ))",
           "enabled": true
         },
         {
@@ -15379,19 +15379,19 @@
         {
           "text": "5, 5, 5,\r\nALL PARTS 100PERCENT WET PAUSE",
           "ordinal": 2,
-          "weatherCondition": "weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR weather INCLUDES TSRA or recentweather INCLUDES TSRA or recentweather INCLUDES RA or recentweather INCLUDES SHRA or recentweather INCLUDES DZ or tempoweather INCLUDES TSRA or tempoweather INCLUDES RA or tempoweather INCLUDES SHRA or tempoweather INCLUDES DZ",
+          "weatherCondition": "(weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR weather INCLUDES TSRA OR recentweather INCLUDES TSRA OR recentweather INCLUDES RA OR recentweather INCLUDES SHRA OR recentweather INCLUDES DZ OR tempoweather INCLUDES TSRA OR tempoweather INCLUDES RA OR tempoweather INCLUDES SHRA OR tempoweather INCLUDES DZ) AND (weather EXCLUDES SN AND weather EXCLUDES SHSN AND weather EXCLUDES BLSN) AND (recentweather EXCLUDES SN AND recentweather EXCLUDES SHSN AND recentweather EXCLUDES BLSN) AND (tempoweather EXCLUDES SN AND tempoweather EXCLUDES SHSN AND tempoweather EXCLUDES BLSN)",
           "enabled": true
         },
         {
           "text": "5, 5, 5,\r\nALL PARTS 100PERCENT 03 MILLIMETERS DRY SNOW PAUSE",
           "ordinal": 3,
-          "weatherCondition": "weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN or recentweather INCLUDES SN OR recentweather INCLUDES SHSN OR recentweather INCLUDES BLSN OR tempoweather INCLUDES SN OR tempoweather INCLUDES SHSN OR tempoweather INCLUDES BLSN",
+          "weatherCondition": "(weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN OR recentweather INCLUDES SN OR recentweather INCLUDES SHSN OR recentweather INCLUDES BLSN OR tempoweather INCLUDES SN OR tempoweather INCLUDES SHSN OR tempoweather INCLUDES BLSN) \r\nAND \r\n(weather EXCLUDES SHRA AND weather EXCLUDES RA AND weather EXCLUDES DZ AND weather EXCLUDES TSRA AND weather EXCLUDES FZRA AND weather EXCLUDES FZDZ) \r\nAND \r\n(recentweather EXCLUDES SHRA AND recentweather EXCLUDES RA AND recentweather EXCLUDES DZ AND recentweather EXCLUDES TSRA AND recentweather EXCLUDES FZRA AND recentweather EXCLUDES FZDZ) \r\nAND \r\n(tempoweather EXCLUDES SHRA AND tempoweather EXCLUDES RA AND tempoweather EXCLUDES DZ AND tempoweather EXCLUDES TSRA AND tempoweather EXCLUDES FZRA AND tempoweather EXCLUDES FZDZ)",
           "enabled": true
         },
         {
-          "text": "3, 3, 3,\r\nALL PARTS 100PERCENT 03 MILLIMETERS WET SNOW PAUSE",
-          "ordinal": 3,
-          "weatherCondition": "(weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN OR recentweather INCLUDES SN OR recentweather INCLUDES SHSN OR recentweather INCLUDES BLSN OR tempoweather INCLUDES SN OR tempoweather INCLUDES SHSN OR tempoweather INCLUDES BLSN) AND (weather INCLUDES FZRA OR weather INCLUDES FZDZ OR weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR recentweather INCLUDES FZRA OR recentweather INCLUDES FZDZ OR recentweather INCLUDES RA OR recentweather INCLUDES SHRA OR recentweather INCLUDES DZ OR tempoweather INCLUDES RA OR tempoweather INCLUDES SHRA OR tempoweather INCLUDES DZ OR tempoweather INCLUDES FZRA OR tempoweather INCLUDES FZDZ)",
+          "text": "3, 3, 3,\r\nALL PARTS 75PERCENT 03 MILLIMETERS WET SNOW PAUSE",
+          "ordinal": 4,
+          "weatherCondition": "((weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN OR recentweather INCLUDES SN OR recentweather INCLUDES SHSN OR recentweather INCLUDES BLSN OR tempoweather INCLUDES SN OR tempoweather INCLUDES SHSN OR tempoweather INCLUDES BLSN)) \r\nAND ((weather INCLUDES FZRA OR weather INCLUDES FZDZ OR weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ) \r\nOR (recentweather INCLUDES FZRA OR recentweather INCLUDES FZDZ OR recentweather INCLUDES RA OR recentweather INCLUDES SHRA OR recentweather INCLUDES DZ) \r\nOR (tempoweather INCLUDES RA OR tempoweather INCLUDES SHRA OR tempoweather INCLUDES DZ OR tempoweather INCLUDES FZRA OR tempoweather INCLUDES FZDZ))",
           "enabled": true
         },
         {
@@ -18002,19 +18002,19 @@
         {
           "text": "5, 5, 5,\r\nALL PARTS 100PERCENT WET PAUSE",
           "ordinal": 2,
-          "weatherCondition": "weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR weather INCLUDES TSRA or recentweather INCLUDES TSRA or recentweather INCLUDES RA or recentweather INCLUDES SHRA or recentweather INCLUDES DZ or tempoweather INCLUDES TSRA or tempoweather INCLUDES RA or tempoweather INCLUDES SHRA or tempoweather INCLUDES DZ",
+          "weatherCondition": "(weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR weather INCLUDES TSRA OR recentweather INCLUDES TSRA OR recentweather INCLUDES RA OR recentweather INCLUDES SHRA OR recentweather INCLUDES DZ OR tempoweather INCLUDES TSRA OR tempoweather INCLUDES RA OR tempoweather INCLUDES SHRA OR tempoweather INCLUDES DZ) AND (weather EXCLUDES SN AND weather EXCLUDES SHSN AND weather EXCLUDES BLSN) AND (recentweather EXCLUDES SN AND recentweather EXCLUDES SHSN AND recentweather EXCLUDES BLSN) AND (tempoweather EXCLUDES SN AND tempoweather EXCLUDES SHSN AND tempoweather EXCLUDES BLSN)",
           "enabled": true
         },
         {
           "text": "5, 5, 5,\r\nALL PARTS 100PERCENT 03 MILLIMETERS DRY SNOW PAUSE",
           "ordinal": 3,
-          "weatherCondition": "weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN or recentweather INCLUDES SN OR recentweather INCLUDES SHSN OR recentweather INCLUDES BLSN OR tempoweather INCLUDES SN OR tempoweather INCLUDES SHSN OR tempoweather INCLUDES BLSN",
+          "weatherCondition": "(weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN OR recentweather INCLUDES SN OR recentweather INCLUDES SHSN OR recentweather INCLUDES BLSN OR tempoweather INCLUDES SN OR tempoweather INCLUDES SHSN OR tempoweather INCLUDES BLSN) \r\nAND \r\n(weather EXCLUDES SHRA AND weather EXCLUDES RA AND weather EXCLUDES DZ AND weather EXCLUDES TSRA AND weather EXCLUDES FZRA AND weather EXCLUDES FZDZ) \r\nAND \r\n(recentweather EXCLUDES SHRA AND recentweather EXCLUDES RA AND recentweather EXCLUDES DZ AND recentweather EXCLUDES TSRA AND recentweather EXCLUDES FZRA AND recentweather EXCLUDES FZDZ) \r\nAND \r\n(tempoweather EXCLUDES SHRA AND tempoweather EXCLUDES RA AND tempoweather EXCLUDES DZ AND tempoweather EXCLUDES TSRA AND tempoweather EXCLUDES FZRA AND tempoweather EXCLUDES FZDZ)",
           "enabled": true
         },
         {
-          "text": "3, 3, 3,\r\nALL PARTS 100PERCENT 03 MILLIMETERS WET SNOW PAUSE",
-          "ordinal": 3,
-          "weatherCondition": "(weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN OR recentweather INCLUDES SN OR recentweather INCLUDES SHSN OR recentweather INCLUDES BLSN OR tempoweather INCLUDES SN OR tempoweather INCLUDES SHSN OR tempoweather INCLUDES BLSN) AND (weather INCLUDES FZRA OR weather INCLUDES FZDZ OR weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR recentweather INCLUDES FZRA OR recentweather INCLUDES FZDZ OR recentweather INCLUDES RA OR recentweather INCLUDES SHRA OR recentweather INCLUDES DZ OR tempoweather INCLUDES RA OR tempoweather INCLUDES SHRA OR tempoweather INCLUDES DZ OR tempoweather INCLUDES FZRA OR tempoweather INCLUDES FZDZ)",
+          "text": "3, 3, 3,\r\nALL PARTS 75PERCENT 03 MILLIMETERS WET SNOW PAUSE",
+          "ordinal": 4,
+          "weatherCondition": "((weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN OR recentweather INCLUDES SN OR recentweather INCLUDES SHSN OR recentweather INCLUDES BLSN OR tempoweather INCLUDES SN OR tempoweather INCLUDES SHSN OR tempoweather INCLUDES BLSN)) \r\nAND ((weather INCLUDES FZRA OR weather INCLUDES FZDZ OR weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ) \r\nOR (recentweather INCLUDES FZRA OR recentweather INCLUDES FZDZ OR recentweather INCLUDES RA OR recentweather INCLUDES SHRA OR recentweather INCLUDES DZ) \r\nOR (tempoweather INCLUDES RA OR tempoweather INCLUDES SHRA OR tempoweather INCLUDES DZ OR tempoweather INCLUDES FZRA OR tempoweather INCLUDES FZDZ))",
           "enabled": true
         },
         {
@@ -20536,19 +20536,19 @@
         {
           "text": "5, 5, 5,\r\nALL PARTS 100PERCENT WET PAUSE",
           "ordinal": 2,
-          "weatherCondition": "weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR weather INCLUDES TSRA or recentweather INCLUDES TSRA or recentweather INCLUDES RA or recentweather INCLUDES SHRA or recentweather INCLUDES DZ or tempoweather INCLUDES TSRA or tempoweather INCLUDES RA or tempoweather INCLUDES SHRA or tempoweather INCLUDES DZ",
+          "weatherCondition": "(weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR weather INCLUDES TSRA OR recentweather INCLUDES TSRA OR recentweather INCLUDES RA OR recentweather INCLUDES SHRA OR recentweather INCLUDES DZ OR tempoweather INCLUDES TSRA OR tempoweather INCLUDES RA OR tempoweather INCLUDES SHRA OR tempoweather INCLUDES DZ) AND (weather EXCLUDES SN AND weather EXCLUDES SHSN AND weather EXCLUDES BLSN) AND (recentweather EXCLUDES SN AND recentweather EXCLUDES SHSN AND recentweather EXCLUDES BLSN) AND (tempoweather EXCLUDES SN AND tempoweather EXCLUDES SHSN AND tempoweather EXCLUDES BLSN)",
           "enabled": true
         },
         {
           "text": "5, 5, 5,\r\nALL PARTS 100PERCENT 03 MILLIMETERS DRY SNOW PAUSE",
           "ordinal": 3,
-          "weatherCondition": "weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN or recentweather INCLUDES SN OR recentweather INCLUDES SHSN OR recentweather INCLUDES BLSN OR tempoweather INCLUDES SN OR tempoweather INCLUDES SHSN OR tempoweather INCLUDES BLSN",
+          "weatherCondition": "(weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN OR recentweather INCLUDES SN OR recentweather INCLUDES SHSN OR recentweather INCLUDES BLSN OR tempoweather INCLUDES SN OR tempoweather INCLUDES SHSN OR tempoweather INCLUDES BLSN) \r\nAND \r\n(weather EXCLUDES SHRA AND weather EXCLUDES RA AND weather EXCLUDES DZ AND weather EXCLUDES TSRA AND weather EXCLUDES FZRA AND weather EXCLUDES FZDZ) \r\nAND \r\n(recentweather EXCLUDES SHRA AND recentweather EXCLUDES RA AND recentweather EXCLUDES DZ AND recentweather EXCLUDES TSRA AND recentweather EXCLUDES FZRA AND recentweather EXCLUDES FZDZ) \r\nAND \r\n(tempoweather EXCLUDES SHRA AND tempoweather EXCLUDES RA AND tempoweather EXCLUDES DZ AND tempoweather EXCLUDES TSRA AND tempoweather EXCLUDES FZRA AND tempoweather EXCLUDES FZDZ)",
           "enabled": true
         },
         {
-          "text": "3, 3, 3,\r\nALL PARTS 100PERCENT 03 MILLIMETERS WET SNOW PAUSE",
-          "ordinal": 3,
-          "weatherCondition": "(weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN OR recentweather INCLUDES SN OR recentweather INCLUDES SHSN OR recentweather INCLUDES BLSN OR tempoweather INCLUDES SN OR tempoweather INCLUDES SHSN OR tempoweather INCLUDES BLSN) AND (weather INCLUDES FZRA OR weather INCLUDES FZDZ OR weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR recentweather INCLUDES FZRA OR recentweather INCLUDES FZDZ OR recentweather INCLUDES RA OR recentweather INCLUDES SHRA OR recentweather INCLUDES DZ OR tempoweather INCLUDES RA OR tempoweather INCLUDES SHRA OR tempoweather INCLUDES DZ OR tempoweather INCLUDES FZRA OR tempoweather INCLUDES FZDZ)",
+          "text": "3, 3, 3,\r\nALL PARTS 75PERCENT 03 MILLIMETERS WET SNOW PAUSE",
+          "ordinal": 4,
+          "weatherCondition": "((weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN OR recentweather INCLUDES SN OR recentweather INCLUDES SHSN OR recentweather INCLUDES BLSN OR tempoweather INCLUDES SN OR tempoweather INCLUDES SHSN OR tempoweather INCLUDES BLSN)) \r\nAND ((weather INCLUDES FZRA OR weather INCLUDES FZDZ OR weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ) \r\nOR (recentweather INCLUDES FZRA OR recentweather INCLUDES FZDZ OR recentweather INCLUDES RA OR recentweather INCLUDES SHRA OR recentweather INCLUDES DZ) \r\nOR (tempoweather INCLUDES RA OR tempoweather INCLUDES SHRA OR tempoweather INCLUDES DZ OR tempoweather INCLUDES FZRA OR tempoweather INCLUDES FZDZ))",
           "enabled": true
         },
         {
@@ -23045,19 +23045,19 @@
         {
           "text": "5, 5, 5,\r\nALL PARTS 100 PERCENT WET PAUSE",
           "ordinal": 2,
-          "weatherCondition": "weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR weather INCLUDES TSRA or recentweather INCLUDES TSRA or recentweather INCLUDES RA or recentweather INCLUDES SHRA or recentweather INCLUDES DZ or tempoweather INCLUDES TSRA or tempoweather INCLUDES RA or tempoweather INCLUDES SHRA or tempoweather INCLUDES DZ",
+          "weatherCondition": "(weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR weather INCLUDES TSRA OR recentweather INCLUDES TSRA OR recentweather INCLUDES RA OR recentweather INCLUDES SHRA OR recentweather INCLUDES DZ OR tempoweather INCLUDES TSRA OR tempoweather INCLUDES RA OR tempoweather INCLUDES SHRA OR tempoweather INCLUDES DZ) AND (weather EXCLUDES SN AND weather EXCLUDES SHSN AND weather EXCLUDES BLSN) AND (recentweather EXCLUDES SN AND recentweather EXCLUDES SHSN AND recentweather EXCLUDES BLSN) AND (tempoweather EXCLUDES SN AND tempoweather EXCLUDES SHSN AND tempoweather EXCLUDES BLSN)",
           "enabled": true
         },
         {
           "text": "5, 5, 5,\r\nALL PARTS 100 PERCENT 03 MILLIMETERS DRY SNOW PAUSE",
           "ordinal": 3,
-          "weatherCondition": "weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN or recentweather INCLUDES SN OR recentweather INCLUDES SHSN OR recentweather INCLUDES BLSN OR tempoweather INCLUDES SN OR tempoweather INCLUDES SHSN OR tempoweather INCLUDES BLSN",
+          "weatherCondition": "(weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN OR recentweather INCLUDES SN OR recentweather INCLUDES SHSN OR recentweather INCLUDES BLSN OR tempoweather INCLUDES SN OR tempoweather INCLUDES SHSN OR tempoweather INCLUDES BLSN) \r\nAND \r\n(weather EXCLUDES SHRA AND weather EXCLUDES RA AND weather EXCLUDES DZ AND weather EXCLUDES TSRA AND weather EXCLUDES FZRA AND weather EXCLUDES FZDZ) \r\nAND \r\n(recentweather EXCLUDES SHRA AND recentweather EXCLUDES RA AND recentweather EXCLUDES DZ AND recentweather EXCLUDES TSRA AND recentweather EXCLUDES FZRA AND recentweather EXCLUDES FZDZ) \r\nAND \r\n(tempoweather EXCLUDES SHRA AND tempoweather EXCLUDES RA AND tempoweather EXCLUDES DZ AND tempoweather EXCLUDES TSRA AND tempoweather EXCLUDES FZRA AND tempoweather EXCLUDES FZDZ)",
           "enabled": true
         },
         {
-          "text": "3, 3, 3,\r\nALL PARTS 100 PERCENT 03 MILLIMETERS WET SNOW PAUSE",
+          "text": "3, 3, 3,\r\nALL PARTS 75 PERCENT 03 MILLIMETERS WET SNOW PAUSE",
           "ordinal": 4,
-          "weatherCondition": "(weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN OR recentweather INCLUDES SN OR recentweather INCLUDES SHSN OR recentweather INCLUDES BLSN OR tempoweather INCLUDES SN OR tempoweather INCLUDES SHSN OR tempoweather INCLUDES BLSN) AND (weather INCLUDES FZRA OR weather INCLUDES FZDZ OR weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR recentweather INCLUDES FZRA OR recentweather INCLUDES FZDZ OR recentweather INCLUDES RA OR recentweather INCLUDES SHRA OR recentweather INCLUDES DZ OR tempoweather INCLUDES RA OR tempoweather INCLUDES SHRA OR tempoweather INCLUDES DZ OR tempoweather INCLUDES FZRA OR tempoweather INCLUDES FZDZ)",
+          "weatherCondition": "((weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN OR recentweather INCLUDES SN OR recentweather INCLUDES SHSN OR recentweather INCLUDES BLSN OR tempoweather INCLUDES SN OR tempoweather INCLUDES SHSN OR tempoweather INCLUDES BLSN)) \r\nAND ((weather INCLUDES FZRA OR weather INCLUDES FZDZ OR weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ) \r\nOR (recentweather INCLUDES FZRA OR recentweather INCLUDES FZDZ OR recentweather INCLUDES RA OR recentweather INCLUDES SHRA OR recentweather INCLUDES DZ) \r\nOR (tempoweather INCLUDES RA OR tempoweather INCLUDES SHRA OR tempoweather INCLUDES DZ OR tempoweather INCLUDES FZRA OR tempoweather INCLUDES FZDZ))",
           "enabled": true
         },
         {
