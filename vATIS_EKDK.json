@@ -2,7 +2,7 @@
   "name": "EKDK",
   "id": "b88713b8-59ea-40cc-8e3d-1bd6e942b6c5",
   "updateUrl": "https://raw.githubusercontent.com/Vatsim-Scandinavia/EKDK-vATIS/refs/heads/main/vATIS_EKDK.json",
-  "updateSerial": 2026110802,
+  "updateSerial": 2026110803,
   "stations": [
     {
       "id": "d97dd234-2106-4a40-b78d-7e6cc812231b",
@@ -2496,19 +2496,25 @@
           "enabled": true
         },
         {
+          "text": "3, 3, 3,\r\nALL PARTS 100PERCENT 03 MILLIMETERS WET SNOW PAUSE",
+          "ordinal": 3,
+          "weatherCondition": "(weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN OR recentweather INCLUDES SN OR recentweather INCLUDES SHSN OR recentweather INCLUDES BLSN OR tempoweather INCLUDES SN OR tempoweather INCLUDES SHSN OR tempoweather INCLUDES BLSN) AND (weather INCLUDES FZRA OR weather INCLUDES FZDZ OR weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR recentweather INCLUDES FZRA OR recentweather INCLUDES FZDZ OR recentweather INCLUDES RA OR recentweather INCLUDES SHRA OR recentweather INCLUDES DZ OR tempoweather INCLUDES RA OR tempoweather INCLUDES SHRA OR tempoweather INCLUDES DZ OR tempoweather INCLUDES FZRA OR tempoweather INCLUDES FZDZ)",
+          "enabled": true
+        },
+        {
           "text": "4, 2, 2, DOWNGRADED.\r\nFIRST PART 100PERCENT 03 MILLIMETERS WET SNOW,\r\nSECOND PART 100PERCENT 04 MILLIMETERS DRY SNOW,\r\nTHIRD PART 100PERCENT 04 MILLIMETERS DRY SNOW PAUSE",
-          "ordinal": 4,
+          "ordinal": 5,
           "enabled": false
         },
         {
           "text": "CHEMICALLY TREATED PAUSE",
-          "ordinal": 5,
+          "ordinal": 6,
           "weatherCondition": "temperature <= 0c",
           "enabled": true
         },
         {
           "text": "LOW VISIBILITY PROCEDURES PAUSE",
-          "ordinal": 6,
+          "ordinal": 7,
           "weatherCondition": "visibility <= 1000m OR tempovisibility <= 1000m OR rvr <= 550m OR ceiling <= 200ft OR tempoceiling <= 200ft",
           "enabled": true
         }
@@ -5037,19 +5043,25 @@
           "enabled": true
         },
         {
+          "text": "3, 3, 3,\r\nALL PARTS 100PERCENT 03 MILLIMETERS WET SNOW PAUSE",
+          "ordinal": 3,
+          "weatherCondition": "(weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN OR recentweather INCLUDES SN OR recentweather INCLUDES SHSN OR recentweather INCLUDES BLSN OR tempoweather INCLUDES SN OR tempoweather INCLUDES SHSN OR tempoweather INCLUDES BLSN) AND (weather INCLUDES FZRA OR weather INCLUDES FZDZ OR weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR recentweather INCLUDES FZRA OR recentweather INCLUDES FZDZ OR recentweather INCLUDES RA OR recentweather INCLUDES SHRA OR recentweather INCLUDES DZ OR tempoweather INCLUDES RA OR tempoweather INCLUDES SHRA OR tempoweather INCLUDES DZ OR tempoweather INCLUDES FZRA OR tempoweather INCLUDES FZDZ)",
+          "enabled": true
+        },
+        {
           "text": "4, 2, 2, DOWNGRADED.\r\nFIRST PART 100PERCENT 03 MILLIMETERS WET SNOW,\r\nSECOND PART 100PERCENT 04 MILLIMETERS DRY SNOW,\r\nTHIRD PART 100PERCENT 04 MILLIMETERS DRY SNOW PAUSE",
-          "ordinal": 4,
+          "ordinal": 5,
           "enabled": false
         },
         {
           "text": "CHEMICALLY TREATED PAUSE",
-          "ordinal": 5,
+          "ordinal": 6,
           "weatherCondition": "temperature <= 0c",
           "enabled": true
         },
         {
           "text": "LOW VISIBILITY PROCEDURES PAUSE",
-          "ordinal": 6,
+          "ordinal": 7,
           "weatherCondition": "visibility <= 1000m OR tempovisibility <= 1000m OR rvr <= 550m OR ceiling <= 200ft OR tempoceiling <= 200ft",
           "enabled": true
         }
@@ -7578,19 +7590,25 @@
           "enabled": true
         },
         {
+          "text": "3, 3, 3,\r\nALL PARTS 03 MILLIMETERS WET SNOW PAUSE",
+          "ordinal": 3,
+          "weatherCondition": "(weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN OR recentweather INCLUDES SN OR recentweather INCLUDES SHSN OR recentweather INCLUDES BLSN OR tempoweather INCLUDES SN OR tempoweather INCLUDES SHSN OR tempoweather INCLUDES BLSN) AND (weather INCLUDES FZRA OR weather INCLUDES FZDZ OR weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR recentweather INCLUDES FZRA OR recentweather INCLUDES FZDZ OR recentweather INCLUDES RA OR recentweather INCLUDES SHRA OR recentweather INCLUDES DZ OR tempoweather INCLUDES RA OR tempoweather INCLUDES SHRA OR tempoweather INCLUDES DZ OR tempoweather INCLUDES FZRA OR tempoweather INCLUDES FZDZ)",
+          "enabled": true
+        },
+        {
           "text": "4, 2, 2, DOWNGRADED.\r\nFIRST PART 100PERCENT 03 MILLIMETERS WET SNOW,\r\nSECOND PART 100PERCENT 04 MILLIMETERS DRY SNOW,\r\nTHIRD PART 100PERCENT 04 MILLIMETERS DRY SNOW PAUSE",
-          "ordinal": 4,
+          "ordinal": 5,
           "enabled": false
         },
         {
           "text": "CHEMICALS HAVE BEEN SPREAD OUT PAUSE",
-          "ordinal": 5,
+          "ordinal": 6,
           "weatherCondition": "temperature <= 0c",
           "enabled": true
         },
         {
           "text": "LOW VISIBILITY PROCEDURES PAUSE",
-          "ordinal": 6,
+          "ordinal": 7,
           "weatherCondition": "visibility <= 1000m OR tempovisibility <= 1000m OR rvr <= 550m OR ceiling <= 200ft OR tempoceiling <= 200ft",
           "enabled": true
         }
@@ -10109,19 +10127,25 @@
           "enabled": true
         },
         {
+          "text": "3, 3, 3,\r\nALL PARTS 03 MILLIMETERS WET SNOW PAUSE",
+          "ordinal": 3,
+          "weatherCondition": "(weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN OR recentweather INCLUDES SN OR recentweather INCLUDES SHSN OR recentweather INCLUDES BLSN OR tempoweather INCLUDES SN OR tempoweather INCLUDES SHSN OR tempoweather INCLUDES BLSN) AND (weather INCLUDES FZRA OR weather INCLUDES FZDZ OR weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR recentweather INCLUDES FZRA OR recentweather INCLUDES FZDZ OR recentweather INCLUDES RA OR recentweather INCLUDES SHRA OR recentweather INCLUDES DZ OR tempoweather INCLUDES RA OR tempoweather INCLUDES SHRA OR tempoweather INCLUDES DZ OR tempoweather INCLUDES FZRA OR tempoweather INCLUDES FZDZ)",
+          "enabled": true
+        },
+        {
           "text": "4, 2, 2, DOWNGRADED.\r\nFIRST PART 100PERCENT 03 MILLIMETERS WET SNOW,\r\nSECOND PART 100PERCENT 04 MILLIMETERS DRY SNOW,\r\nTHIRD PART 100PERCENT 04 MILLIMETERS DRY SNOW PAUSE",
-          "ordinal": 4,
+          "ordinal": 5,
           "enabled": false
         },
         {
           "text": "CHEMICALS HAVE BEEN SPREAD OUT PAUSE",
-          "ordinal": 5,
+          "ordinal": 6,
           "weatherCondition": "temperature <= 0c",
           "enabled": true
         },
         {
           "text": "LOW VISIBILITY PROCEDURES PAUSE",
-          "ordinal": 6,
+          "ordinal": 7,
           "weatherCondition": "visibility <= 1000m OR tempovisibility <= 1000m OR rvr <= 550m OR ceiling <= 200ft OR tempoceiling <= 200ft",
           "enabled": true
         }
@@ -12730,31 +12754,37 @@
           "enabled": true
         },
         {
+          "text": "3, 3, 3,\r\nALL PARTS 100PERCENT 03 MILLIMETERS WET SNOW PAUSE",
+          "ordinal": 3,
+          "weatherCondition": "(weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN OR recentweather INCLUDES SN OR recentweather INCLUDES SHSN OR recentweather INCLUDES BLSN OR tempoweather INCLUDES SN OR tempoweather INCLUDES SHSN OR tempoweather INCLUDES BLSN) AND (weather INCLUDES FZRA OR weather INCLUDES FZDZ OR weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR recentweather INCLUDES FZRA OR recentweather INCLUDES FZDZ OR recentweather INCLUDES RA OR recentweather INCLUDES SHRA OR recentweather INCLUDES DZ OR tempoweather INCLUDES RA OR tempoweather INCLUDES SHRA OR tempoweather INCLUDES DZ OR tempoweather INCLUDES FZRA OR tempoweather INCLUDES FZDZ)",
+          "enabled": true
+        },
+        {
           "text": "4, 2, 2, DOWNGRADED.\r\nFIRST PART 100PERCENT 03 MILLIMETERS WET SNOW,\r\nSECOND PART 100PERCENT 04 MILLIMETERS DRY SNOW,\r\nTHIRD PART 100PERCENT 04 MILLIMETERS DRY SNOW PAUSE",
-          "ordinal": 4,
+          "ordinal": 5,
           "enabled": false
         },
         {
           "text": "CHEMICALLY TREATED PAUSE",
-          "ordinal": 5,
+          "ordinal": 6,
           "weatherCondition": "temperature <= 0c",
           "enabled": true
         },
         {
           "text": "LOW VISIBILITY PROCEDURES IN OPERATION PAUSE",
-          "ordinal": 6,
+          "ordinal": 7,
           "weatherCondition": "visibility <= 1000m OR tempovisibility <= 1000m OR rvr <= 1000m OR ceiling <= 300ft OR tempoceiling <= 300ft",
           "enabled": true
         },
         {
           "text": "AT FIRST CONTACT WITH APPROACH, STATE IF REQ CAT 2 PAUSE",
-          "ordinal": 7,
+          "ordinal": 8,
           "weatherCondition": "(rvr <= 1000m AND rvr > 400m) OR (ceiling <= 300ft AND ceiling > 200ft)",
           "enabled": true
         },
         {
           "text": "AT FIRST CONTACT WITH APPROACH, STATE IF REQ CAT 3 PAUSE",
-          "ordinal": 8,
+          "ordinal": 9,
           "weatherCondition": "rvr <= 400m OR ceiling <= 200ft",
           "enabled": true
         }
@@ -15359,19 +15389,25 @@
           "enabled": true
         },
         {
+          "text": "3, 3, 3,\r\nALL PARTS 100PERCENT 03 MILLIMETERS WET SNOW PAUSE",
+          "ordinal": 3,
+          "weatherCondition": "(weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN OR recentweather INCLUDES SN OR recentweather INCLUDES SHSN OR recentweather INCLUDES BLSN OR tempoweather INCLUDES SN OR tempoweather INCLUDES SHSN OR tempoweather INCLUDES BLSN) AND (weather INCLUDES FZRA OR weather INCLUDES FZDZ OR weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR recentweather INCLUDES FZRA OR recentweather INCLUDES FZDZ OR recentweather INCLUDES RA OR recentweather INCLUDES SHRA OR recentweather INCLUDES DZ OR tempoweather INCLUDES RA OR tempoweather INCLUDES SHRA OR tempoweather INCLUDES DZ OR tempoweather INCLUDES FZRA OR tempoweather INCLUDES FZDZ)",
+          "enabled": true
+        },
+        {
           "text": "4, 2, 2, DOWNGRADED.\r\nFIRST PART 100PERCENT 03 MILLIMETERS WET SNOW,\r\nSECOND PART 100PERCENT 04 MILLIMETERS DRY SNOW,\r\nTHIRD PART 100PERCENT 04 MILLIMETERS DRY SNOW PAUSE",
-          "ordinal": 4,
+          "ordinal": 5,
           "enabled": false
         },
         {
           "text": "CHEMICALLY TREATED PAUSE",
-          "ordinal": 5,
+          "ordinal": 6,
           "weatherCondition": "temperature <= 0c",
           "enabled": true
         },
         {
           "text": "LOW VISIBILITY PROCEDURES IN OPERATION PAUSE",
-          "ordinal": 6,
+          "ordinal": 7,
           "weatherCondition": "visibility <= 1000m OR tempovisibility <= 1000m OR rvr <= 1000m OR ceiling <= 300ft OR tempoceiling <= 300ft",
           "enabled": true
         }
@@ -17976,19 +18012,25 @@
           "enabled": true
         },
         {
+          "text": "3, 3, 3,\r\nALL PARTS 100PERCENT 03 MILLIMETERS WET SNOW PAUSE",
+          "ordinal": 3,
+          "weatherCondition": "(weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN OR recentweather INCLUDES SN OR recentweather INCLUDES SHSN OR recentweather INCLUDES BLSN OR tempoweather INCLUDES SN OR tempoweather INCLUDES SHSN OR tempoweather INCLUDES BLSN) AND (weather INCLUDES FZRA OR weather INCLUDES FZDZ OR weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR recentweather INCLUDES FZRA OR recentweather INCLUDES FZDZ OR recentweather INCLUDES RA OR recentweather INCLUDES SHRA OR recentweather INCLUDES DZ OR tempoweather INCLUDES RA OR tempoweather INCLUDES SHRA OR tempoweather INCLUDES DZ OR tempoweather INCLUDES FZRA OR tempoweather INCLUDES FZDZ)",
+          "enabled": true
+        },
+        {
           "text": "4, 2, 2, DOWNGRADED.\r\nFIRST PART 100PERCENT 03 MILLIMETERS WET SNOW,\r\nSECOND PART 100PERCENT 04 MILLIMETERS DRY SNOW,\r\nTHIRD PART 100PERCENT 04 MILLIMETERS DRY SNOW PAUSE",
-          "ordinal": 4,
+          "ordinal": 5,
           "enabled": false
         },
         {
           "text": "CHEMICALLY TREATED PAUSE",
-          "ordinal": 5,
+          "ordinal": 6,
           "weatherCondition": "temperature <= 0c",
           "enabled": true
         },
         {
           "text": "LOW VISIBILITY PROCEDURES IN OPERATION PAUSE",
-          "ordinal": 6,
+          "ordinal": 7,
           "weatherCondition": "visibility <= 1000m OR tempovisibility <= 1000m OR rvr <= 1000m OR ceiling <= 300ft OR tempoceiling <= 300ft",
           "enabled": true
         }
@@ -20504,19 +20546,25 @@
           "enabled": true
         },
         {
+          "text": "3, 3, 3,\r\nALL PARTS 100PERCENT 03 MILLIMETERS WET SNOW PAUSE",
+          "ordinal": 3,
+          "weatherCondition": "(weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN OR recentweather INCLUDES SN OR recentweather INCLUDES SHSN OR recentweather INCLUDES BLSN OR tempoweather INCLUDES SN OR tempoweather INCLUDES SHSN OR tempoweather INCLUDES BLSN) AND (weather INCLUDES FZRA OR weather INCLUDES FZDZ OR weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR recentweather INCLUDES FZRA OR recentweather INCLUDES FZDZ OR recentweather INCLUDES RA OR recentweather INCLUDES SHRA OR recentweather INCLUDES DZ OR tempoweather INCLUDES RA OR tempoweather INCLUDES SHRA OR tempoweather INCLUDES DZ OR tempoweather INCLUDES FZRA OR tempoweather INCLUDES FZDZ)",
+          "enabled": true
+        },
+        {
           "text": "4, 2, 2, DOWNGRADED.\r\nFIRST PART 100PERCENT 03 MILLIMETERS WET SNOW,\r\nSECOND PART 100PERCENT 04 MILLIMETERS DRY SNOW,\r\nTHIRD PART 100PERCENT 04 MILLIMETERS DRY SNOW PAUSE",
-          "ordinal": 4,
+          "ordinal": 5,
           "enabled": false
         },
         {
           "text": "CHEMICALLY TREATED PAUSE",
-          "ordinal": 5,
+          "ordinal": 6,
           "weatherCondition": "temperature <= 0c",
           "enabled": true
         },
         {
           "text": "LOW VISIBILITY PROCEDURES PAUSE",
-          "ordinal": 6,
+          "ordinal": 7,
           "weatherCondition": "visibility <= 1000m OR tempovisibility <= 1000m OR rvr <= 550m OR ceiling <= 200ft OR tempoceiling <= 200ft",
           "enabled": true
         }
@@ -23007,19 +23055,25 @@
           "enabled": true
         },
         {
-          "text": "4, 2, 2, DOWNGRADED.\r\nFIRST PART 100 PERCENT 03 MILLIMETERS WET SNOW,\r\nSECOND PART 100 PERCENT 04 MILLIMETERS DRY SNOW,\r\nTHIRD PART 100 PERCENT 04 MILLIMETERS DRY SNOW PAUSE",
+          "text": "3, 3, 3,\r\nALL PARTS 100 PERCENT 03 MILLIMETERS WET SNOW PAUSE",
           "ordinal": 4,
+          "weatherCondition": "(weather INCLUDES SN OR weather INCLUDES SHSN OR weather INCLUDES BLSN OR recentweather INCLUDES SN OR recentweather INCLUDES SHSN OR recentweather INCLUDES BLSN OR tempoweather INCLUDES SN OR tempoweather INCLUDES SHSN OR tempoweather INCLUDES BLSN) AND (weather INCLUDES FZRA OR weather INCLUDES FZDZ OR weather INCLUDES SHRA OR weather INCLUDES RA OR weather INCLUDES DZ OR recentweather INCLUDES FZRA OR recentweather INCLUDES FZDZ OR recentweather INCLUDES RA OR recentweather INCLUDES SHRA OR recentweather INCLUDES DZ OR tempoweather INCLUDES RA OR tempoweather INCLUDES SHRA OR tempoweather INCLUDES DZ OR tempoweather INCLUDES FZRA OR tempoweather INCLUDES FZDZ)",
+          "enabled": true
+        },
+        {
+          "text": "4, 2, 2, DOWNGRADED.\r\nFIRST PART 100 PERCENT 03 MILLIMETERS WET SNOW,\r\nSECOND PART 100 PERCENT 04 MILLIMETERS DRY SNOW,\r\nTHIRD PART 100 PERCENT 04 MILLIMETERS DRY SNOW PAUSE",
+          "ordinal": 5,
           "enabled": false
         },
         {
           "text": "CHEMICALLY TREATED PAUSE",
-          "ordinal": 5,
+          "ordinal": 6,
           "weatherCondition": "temperature <= 0c",
           "enabled": true
         },
         {
           "text": "LOW VISIBILITY PROCEDURES PAUSE",
-          "ordinal": 6,
+          "ordinal": 7,
           "weatherCondition": "visibility <= 1000m OR tempovisibility <= 1000m OR rvr <= 550m OR ceiling <= 200ft OR tempoceiling <= 200ft",
           "enabled": true
         }
