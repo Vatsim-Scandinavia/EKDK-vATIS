@@ -2,7 +2,7 @@
   "name": "EKDK",
   "id": "b88713b8-59ea-40cc-8e3d-1bd6e942b6c5",
   "updateUrl": "https://raw.githubusercontent.com/Vatsim-Scandinavia/EKDK-vATIS/refs/heads/main/vATIS_EKDK.json",
-  "updateSerial": 2026110801,
+  "updateSerial": 2026110802,
   "stations": [
     {
       "id": "d97dd234-2106-4a40-b78d-7e6cc812231b",
@@ -2509,7 +2509,7 @@
         {
           "text": "LOW VISIBILITY PROCEDURES PAUSE",
           "ordinal": 6,
-          "weatherCondition": "visibility <= 1000m OR tempovisibility <= 1000m OR rvr <= 550m OR ceiling <= 200ft",
+          "weatherCondition": "visibility <= 1000m OR tempovisibility <= 1000m OR rvr <= 550m OR ceiling <= 200ft OR tempoceiling <= 200ft",
           "enabled": true
         }
       ],
@@ -5050,7 +5050,7 @@
         {
           "text": "LOW VISIBILITY PROCEDURES PAUSE",
           "ordinal": 6,
-          "weatherCondition": "visibility <= 1000m OR tempovisibility <= 1000m OR rvr <= 550m OR ceiling <= 200ft",
+          "weatherCondition": "visibility <= 1000m OR tempovisibility <= 1000m OR rvr <= 550m OR ceiling <= 200ft OR tempoceiling <= 200ft",
           "enabled": true
         }
       ],
@@ -7591,7 +7591,7 @@
         {
           "text": "LOW VISIBILITY PROCEDURES PAUSE",
           "ordinal": 6,
-          "weatherCondition": "visibility <= 1000m OR tempovisibility <= 1000m OR rvr <= 550m OR ceiling <= 200ft",
+          "weatherCondition": "visibility <= 1000m OR tempovisibility <= 1000m OR rvr <= 550m OR ceiling <= 200ft OR tempoceiling <= 200ft",
           "enabled": true
         }
       ],
@@ -10122,7 +10122,7 @@
         {
           "text": "LOW VISIBILITY PROCEDURES PAUSE",
           "ordinal": 6,
-          "weatherCondition": "visibility <= 1000m OR tempovisibility <= 1000m OR rvr <= 550m OR ceiling <= 200ft",
+          "weatherCondition": "visibility <= 1000m OR tempovisibility <= 1000m OR rvr <= 550m OR ceiling <= 200ft OR tempoceiling <= 200ft",
           "enabled": true
         }
       ],
@@ -12743,7 +12743,7 @@
         {
           "text": "LOW VISIBILITY PROCEDURES IN OPERATION PAUSE",
           "ordinal": 6,
-          "weatherCondition": "visibility <= 1000m OR tempovisibility <= 1000m OR rvr <= 1000m OR ceiling <= 300ft",
+          "weatherCondition": "visibility <= 1000m OR tempovisibility <= 1000m OR rvr <= 1000m OR ceiling <= 300ft OR tempoceiling <= 300ft",
           "enabled": true
         },
         {
@@ -15372,7 +15372,7 @@
         {
           "text": "LOW VISIBILITY PROCEDURES IN OPERATION PAUSE",
           "ordinal": 6,
-          "weatherCondition": "visibility <= 1000m OR tempovisibility <= 1000m OR rvr <= 1000m OR ceiling <= 300ft",
+          "weatherCondition": "visibility <= 1000m OR tempovisibility <= 1000m OR rvr <= 1000m OR ceiling <= 300ft OR tempoceiling <= 300ft",
           "enabled": true
         }
       ],
@@ -17989,7 +17989,7 @@
         {
           "text": "LOW VISIBILITY PROCEDURES IN OPERATION PAUSE",
           "ordinal": 6,
-          "weatherCondition": "visibility <= 1000m OR tempovisibility <= 1000m OR rvr <= 1000m OR ceiling <= 300ft",
+          "weatherCondition": "visibility <= 1000m OR tempovisibility <= 1000m OR rvr <= 1000m OR ceiling <= 300ft OR tempoceiling <= 300ft",
           "enabled": true
         }
       ],
@@ -20517,7 +20517,7 @@
         {
           "text": "LOW VISIBILITY PROCEDURES PAUSE",
           "ordinal": 6,
-          "weatherCondition": "visibility <= 1000m OR tempovisibility <= 1000m OR rvr <= 550m OR ceiling <= 200ft",
+          "weatherCondition": "visibility <= 1000m OR tempovisibility <= 1000m OR rvr <= 550m OR ceiling <= 200ft OR tempoceiling <= 200ft",
           "enabled": true
         }
       ],
@@ -23020,7 +23020,7 @@
         {
           "text": "LOW VISIBILITY PROCEDURES PAUSE",
           "ordinal": 6,
-          "weatherCondition": "visibility <= 1000m OR tempovisibility <= 1000m OR rvr <= 550m OR ceiling <= 200ft",
+          "weatherCondition": "visibility <= 1000m OR tempovisibility <= 1000m OR rvr <= 550m OR ceiling <= 200ft OR tempoceiling <= 200ft",
           "enabled": true
         }
       ],

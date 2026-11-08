@@ -2,7 +2,7 @@
   "name": "EKCH",
   "id": "7119edbb-55b3-4feb-af26-0b93ec59a470",
   "updateUrl": "https://raw.githubusercontent.com/Vatsim-Scandinavia/EKDK-vATIS/refs/heads/main/vATIS_EKCH.json",
-  "updateSerial": 2026110801,
+  "updateSerial": 2026110802,
   "stations": [
     {
       "id": "ea844f5a-465b-4b4c-8c6b-9334cd537930",
@@ -2599,7 +2599,7 @@
         {
           "text": "LOW VISIBILITY PROCEDURES IN OPERATION PAUSE",
           "ordinal": 6,
-          "weatherCondition": "visibility <= 1000m OR tempovisibility <= 1000m OR rvr <= 1000m OR ceiling <= 300ft",
+          "weatherCondition": "visibility <= 1000m OR tempovisibility <= 1000m OR rvr <= 1000m OR ceiling <= 300ft OR tempoceiling <= 300ft",
           "enabled": true
         }
       ],
@@ -5210,7 +5210,7 @@
         {
           "text": "LOW VISIBILITY PROCEDURES IN OPERATION PAUSE",
           "ordinal": 6,
-          "weatherCondition": "visibility <= 1000m OR tempovisibility <= 1000m OR rvr <= 1000m OR ceiling <= 300ft",
+          "weatherCondition": "visibility <= 1000m OR tempovisibility <= 1000m OR rvr <= 1000m OR ceiling <= 300ft OR tempoceiling <= 300ft",
           "enabled": true
         }
       ],
@@ -7820,7 +7820,7 @@
         {
           "text": "LOW VISIBILITY PROCEDURES IN OPERATION PAUSE",
           "ordinal": 6,
-          "weatherCondition": "visibility <= 1000m OR tempovisibility <= 1000m OR rvr <= 1000m OR ceiling <= 300ft",
+          "weatherCondition": "visibility <= 1000m OR tempovisibility <= 1000m OR rvr <= 1000m OR ceiling <= 300ft OR tempoceiling <= 300ft",
           "enabled": true
         },
         {
